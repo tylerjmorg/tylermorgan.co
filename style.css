@@ -27,3 +27,9 @@ p {
   text-decoration: none; 
   color: black; 
 }
+#social {
+  border-radius: 50%;
+  border-color: green;
+  border-width: 10px;
+  animation: progress 5s linear;
+}
