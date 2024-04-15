@@ -12,10 +12,14 @@ a {
 }
 div {
   font-family: Helvetica;
+  text-decoration: none; 
+  color: black; 
 }
 span {
   font-family: Helvetica;
 }
 p {
   font-family: Helvetica;
+  text-decoration: none; 
+  color: black; 
 }
