@@ -36,8 +36,8 @@ p {
   color: #454D51;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
   transform: scale(1);
-  transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
-  border-radius: 30px;
 }
 #social:hover {
+  transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+  border-radius: 30px;
 }
