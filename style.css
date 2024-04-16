@@ -1,44 +1,83 @@
 h1 {
   font-family: Helvetica;
+  margin-top: 20px;
+  font-size: 35px;
 }
 h2 {
   font-family: Helvetica;
+  margin-top: 50px;
+  font-size: 20px;
 }
 h3 {
   font-family: Helvetica;
-  text-decoration: none; 
-  color: black;
-}
-a {
-  font-family: Helvetica;
-  text-decoration: none; 
   color: black;
 }
 div {
   font-family: Helvetica;
-  text-decoration: none; 
   color: black; 
 }
 span {
   font-family: Helvetica;
 }
-p {
-  font-family: Helvetica;
-  text-decoration: none; 
-  color: black; 
-}
-#social {
-  z-index: 0;
-  overflow: hidden;
-  margin-bottom: 16px;
-  border: 2px solid #E3E4E5;
-  background-color: #E3E4E5;
+.social-button {
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
   color: #454D51;
+  font-size: 17px;
+  margin: auto;
+  padding: 15px;
+  width: 500px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 2px solid #d8d7d6;
+  background-color: #d8d7d6;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
-  transform: scale(1);
   border-radius: 30px;
-}
-#social:hover {
   transform: scale(1);
   transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+.social-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 12px 0px;
+  transform: scale(1.01);
+}
+.social-link {
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
+  color: #454D51;
+  font-size: 17px;
+  margin: 0px;
+  padding-left: 215px;
+  padding-right: 215px;
+  padding-top:13px;
+  padding-bottom: 13px;
+  border: none;
+  background-color: none;
+  overflow: hidden;
+  transform: scale(1);
+  transition: transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s, box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
+}
+.social-link:hover {
+  transform: scale(1.01);
+}
+.sub-footer {
+  font-weight: normal;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 60px;
+}
+.footer {
+  font-weight: normal;
+  text-align: center;
+  font-size: 10px;
+}
+.profile {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
 }
