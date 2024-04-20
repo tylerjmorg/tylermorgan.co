@@ -1,3 +1,2 @@
-RewriteEngine On
-RewriteRule ^DOS/?$ $1/docs/dos/dos-fdht.pdf$2 [R=302,L]
+RedirectMatch 302 /DOS/ https://tylermorgan.co/docs/dos/dos-fdht.pdf
 ErrorDocument 404 /404.html
