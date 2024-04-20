@@ -1,4 +1,4 @@
-ErrorDocument 404 /404.html
 Options +FollowSymlinks -MultiViews
 RewriteEngine On
 RewriteRule ^DOS/?  https://tylermorgan.co/docs/dos/dos-fdht.pdf  [R=302,NC,L]
+ErrorDocument 404 /404.html
