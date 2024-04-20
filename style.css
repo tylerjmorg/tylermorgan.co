@@ -31,7 +31,8 @@ span {
 .social-button {
   cursor: pointer;
   max-width: 750px;
-  height: 60px;
+  width: 90%;
+  height: 50px;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -75,7 +76,7 @@ span {
   margin-top: 50px;
 }
 .social-txt2 {
-  padding-top:20px;
+  margin-top:14px;
   display: flex;
   justify-content: center;
   text-align: center;
