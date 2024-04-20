@@ -1,4 +1,3 @@
-Options +FollowSymlinks -MultiViews
 RewriteEngine On
-RewriteRule ^DOS/?  https://tylermorgan.co/docs/dos/dos-fdht.pdf  [R=302,NC,L]
+RewriteRule ^DOS/?$ $1/docs/dos/dos-fdht.pdf$2 [R=302,L]
 ErrorDocument 404 /404.html
