@@ -1,2 +1,4 @@
-Redirect 302 /DOS/ https://tylermorgan.co/docs/dos/dos-fdht.pdf
 ErrorDocument 404 /404.html
+Options +FollowSymlinks -MultiViews
+RewriteEngine On
+RewriteRule ^DOS/?  https://tylermorgan.co/docs/dos/dos-fdht.pdf
