@@ -22,7 +22,7 @@ span {
 .title {
   font-family: Helvetica;
   margin-top: 20px;
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
   color: #FFFFFF;
   font-weight: bold;
@@ -30,7 +30,7 @@ span {
 }
 .social-button {
   cursor: pointer;
-  width: 750px;
+  max-width: 750px;
   height: 60px;
   display: flex;
   justify-content: center;
