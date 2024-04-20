@@ -31,20 +31,18 @@ span {
 .social-button {
   cursor: pointer;
   max-width: 750px;
-  width: 90%;
-  height: 50px;
+  width: 95%;
+  height: 60px;
   display: flex;
   justify-content: center;
   text-decoration: none;
   font-weight: normal;
   text-align: center;
-  vertical-align: center;
   color: #454D51;
   margin: auto;
-  font-size: 20px;
-  overflow: hidden;
+  font-size: 17px;
   margin-bottom: 20px;
-  border: 2px solid #d8d7d6;
+  border: none;
   background-color: #d8d7d6;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
   border-radius: 40px;
@@ -54,6 +52,9 @@ span {
 .social-button:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 12px 0px;
   transform: scale(1.05);
+}
+.social-txt {
+  padding-top: 2px;
 }
 .sub-footer {
   font-weight: normal;
@@ -74,13 +75,6 @@ span {
   width: 200px;
   height: 200px;
   margin-top: 50px;
-}
-.social-txt2 {
-  margin-top:14px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  vertical-align: center;
 }
 .email {
   transform: scale(1);
