@@ -1,0 +1,7 @@
+#
+# robots.txt for https://tylermorgan.co/
+#
+
+# Disallow 404 error page
+User-agent: *
+Disallow: /404.html/
