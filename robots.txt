@@ -5,3 +5,7 @@
 # Disallow 404 error page
 User-agent: *
 Disallow: /404.html/
+
+#Disallow resume PDF
+User-agent: *
+Disallow: /docs/resume/
