@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" version="1.2" baseProfile="tiny-ps">
-    <rect fill="#454d51" width="375" height="375"/>
-    <g fill="#e3e4e5">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" version="1.2">
+    <g fill="#454d51">
         <path d="M 38.359375 258.3 L 147.6 258.3 L 147.6 285.5 L 38.4 285.5 Z M 38.4 258.3"/>
         <path d="M 196.4 82.4 L 337.1 82.4 L 337.1 109.2 L 196.4 109.2 Z M 196.4 82.4"/>
         <path d="M 37.8,81.6 V 108.9 H 78.4 V 209.7 H 107.5 V 108.9 h 40.6 V 81.6 Z"/>
