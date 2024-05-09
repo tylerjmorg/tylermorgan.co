@@ -34,6 +34,19 @@
   "orientation": "natural",
   "display": "minimal-ui",
   "scope": "/",
-
-  "theme_color": "#444444"
+  "theme_color": "#444444",
+  "screenshots": [
+    {
+      "src": "/elements/pwa/pwa-macos.png",
+      "type": "image/png",
+      "sizes": "2624x1766",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/elements/pwa/pwa-ios.png",
+      "type": "image/png",
+      "sizes": "878x1580",
+      "form_factor": "narrow"
+    }
+  ]
 }
