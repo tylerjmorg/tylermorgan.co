@@ -182,7 +182,6 @@ h2 {
   color: #FFFFFF;
   margin: auto;
   overflow: hidden;
-  background-color: none;
   margin-bottom: 10px;
   max-width: 650px;
   width: 85%;
@@ -193,12 +192,13 @@ h2 {
 }
 
 .content-link {
-  text-decoration: none;
+  text-decoration: underline solid transparent;
   color: #FFFFFF;
   cursor: pointer;
-  transition: color 125ms linear;
+  transition: color 150ms linear, text-decoration 150ms linear;
 }
 
 .content-link:hover {
-  color: #BBBBBB;
+  color: #CCCCCC;
+  text-decoration: underline solid currentColor;
 }
