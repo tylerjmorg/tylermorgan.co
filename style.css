@@ -16,14 +16,6 @@ body {
   background-color: var(--body-background);
 }
 
-span {
-  font-family: Helvetica;
-}
-
-div {
-  font-family: Helvetica;
-}
-
 .profile {
   border-radius: 50%;
   display: block;
@@ -35,36 +27,26 @@ div {
 }
 
 .title-div {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-gap: 0px;
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
 h1 {
-  font-family: Helvetica;
   margin-top: 20px;
   font-size: 45px;
 }
 
 .title {
-  font-family: Helvetica;
   margin-top: 20px;
   font-size: 35px;
-  text-align: center;
   color: var(--primary-color);
-  font-weight: bold;
-  padding-right: 0px;
   margin-left: 40px;
   margin-right: 10px;
 }
 
 .email {
-  text-decoration: none;
   fill: var(--primary-color);
-  margin-top: 0px;
   transform: scale(1);
   transition: fill 125ms linear, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
 }
@@ -74,7 +56,6 @@ h1 {
 }
 
 h2 {
-  font-family: Helvetica;
   text-align: center;
   color: var(--primary-color);
   margin-top: 50px;
@@ -92,15 +73,12 @@ h2 {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-weight: normal;
-  text-align: center;
   color: var(--highlight-color);
   margin: auto;
   font-size: 17px;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-bottom: 20px;
-  border: none;
   background-color: var(--button-link);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
   border-radius: 40px;
@@ -113,8 +91,6 @@ h2 {
 }
 
 .sub-footer {
-  font-family: Helvetica;
-  font-weight: normal;
   text-align: center;
   font-size: 14px;
   margin-top: 60px;
@@ -130,8 +106,6 @@ h2 {
 }
 
 .footer1 {
-  font-family: Helvetica;
-  font-weight: normal;
   font-size: 12px;
   color: var(--primary-color);
   grid-area: footer1;
@@ -139,8 +113,6 @@ h2 {
 }
 
 .footer2 {
-  font-family: Helvetica;
-  font-weight: normal;
   font-size: 12px;
   color: var(--primary-color);
   grid-area: footer2;
@@ -164,16 +136,13 @@ h2 {
 }
 
 .collapsible {
-  font-family: Helvetica;
   margin: auto;
   background-color: var(--button-action);
   color: var(--primary-color);
   cursor: pointer;
   border: none;
-  text-align: center;
   font-size: 16px;
   border-radius: 40px;
-  margin-bottom: 0px;
   max-width: 125px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -195,7 +164,6 @@ h2 {
   background-color: var(--secondary-bkg-color);
   border-radius: 30px;
   padding: 0 20px;
-  font-family: Helvetica;
   line-height: 1.25;
   max-height: 0;
   color: var(--primary-color);
@@ -205,7 +173,6 @@ h2 {
   max-width: 650px;
   width: 85%;
   font-size: 16px;
-  justify-content: center;
   text-wrap: pretty;
   text-align: left;
   transition: max-height 0.7s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
@@ -226,13 +193,10 @@ h2 {
 
 .dark-btn {
   text-decoration: none;
-  font-family: Helvetica;
   margin: auto;
   background-color: var(--button-action-active);
   color: var(--primary-color);
   cursor: pointer;
-  border: none;
-  text-align: center;
   font-size: 16px;
   border-radius: 40px;
   margin-bottom: 10px;
@@ -251,12 +215,9 @@ h2 {
 }
 
 .cnncl-usrnme {
-  font-family: Helvetica;
   font-size: 17px;
   color: var(--primary-color);
-  text-align: center;
   justify-content: center;
-  margin-top: 0px;
   margin-bottom: 15px;
   display: flex;
 }
@@ -273,14 +234,11 @@ li {
 
 .redirect-header {
   color: var(--primary-color);
-  font-family: Helvetica;
-  justify-content: center;
   text-align: center;
   margin-top: 120px;
 }
 
 .redirect-help-txt {
-  font-family: Helvetica;
   text-align: center;
   color: var(--primary-color);
   margin-top: 150px;
@@ -292,7 +250,6 @@ li {
   color: var(--primary-color);
   margin-top: 180px;
   text-align: center;
-  font-family: Helvetica;
   font-size: 180px;
   font-weight: normal;
 }
@@ -300,7 +257,6 @@ li {
 .main-404 {
   color: var(--primary-color);
   font-size: 20px;
-  font-family: Helvetica;
   margin-top: 60px;
   text-align: center;
   margin-bottom: 20px;
