@@ -37,50 +37,50 @@
   "theme_color": "#444444",
   "screenshots": [
     {
-      "src": "/elements/pwa/pwa-desktop-1.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-desktop-1.webp",
+      "type": "image/webp",
       "sizes": "2388x1672",
       "form_factor": "wide"
     },
     {
-      "src": "/elements/pwa/pwa-desktop-2.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-desktop-2.webp",
+      "type": "image/webp",
       "sizes": "2388x1672",
       "form_factor": "wide"
     },
     {
-      "src": "/elements/pwa/pwa-desktop-3.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-desktop-3.webp",
+      "type": "image/webp",
       "sizes": "2388x1672",
       "form_factor": "wide"
     },
     {
-      "src": "/elements/pwa/pwa-desktop-4.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-desktop-4.webp",
+      "type": "image/webp",
       "sizes": "2388x1672",
       "form_factor": "wide"
     },
     {
-      "src": "/elements/pwa/pwa-mobile-1.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-mobile-1.webp",
+      "type": "image/webp",
       "sizes": "1284x2480",
       "form_factor": "narrow"
     },
     {
-      "src": "/elements/pwa/pwa-mobile-2.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-mobile-2.webp",
+      "type": "image/webp",
       "sizes": "1284x2480",
       "form_factor": "narrow"
     },
     {
-      "src": "/elements/pwa/pwa-mobile-3.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-mobile-3.webp",
+      "type": "image/webp",
       "sizes": "1284x2480",
       "form_factor": "narrow"
     },
     {
-      "src": "/elements/pwa/pwa-mobile-4.png",
-      "type": "image/png",
+      "src": "/elements/pwa/pwa-mobile-4.webp",
+      "type": "image/webp",
       "sizes": "1284x2480",
       "form_factor": "narrow"
     }
