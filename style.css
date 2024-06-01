@@ -46,6 +46,7 @@ h1 {
 }
 
 .email {
+  
   fill: var(--primary-color);
   transform: scale(1);
   transition: fill 125ms linear, transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
