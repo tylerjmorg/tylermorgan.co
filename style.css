@@ -1,6 +1,23 @@
+@font-face {
+	font-family: HelN;
+  src: url('elements/fonts/HelveticaNeue.ttf');
+  font-weight: normal;
+}
+@font-face {
+	font-family: HelN;
+  src: url('elements/fonts/HelveticaNeue-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+	font-family: HelN;
+  src: url('elements/fonts/HelveticaNeue-Light.ttf');
+  font-weight: 200;
+}
+
 :root {
   color-scheme: light dark;
-  font-family: HelveticaNeue;
+  font-family: HelN;
   --body-background: light-dark(#444,#121111);
   --secondary-bkg-color: light-dark(#383838,#212021);
   --primary-color: light-dark(#fff,#dedddc);
@@ -216,8 +233,9 @@ h2 {
 }
 
 .cnncl-usrnme {
-  font-family: HelveticaNeue-Light;
+  font-family: HelN;
   font-size: 17px;
+  font-weight: 200;
   color: var(--primary-color);
   justify-content: center;
   margin-bottom: 15px;
