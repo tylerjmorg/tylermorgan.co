@@ -1,7 +1,7 @@
 @font-face {
 	font-family: HelN;
   src: url('elements/fonts/HelveticaNeue.ttf');
-  font-weight: normal;
+  font-weight: 500;
 }
 @font-face {
 	font-family: HelN;
@@ -18,6 +18,7 @@
 :root {
   color-scheme: light dark;
   font-family: HelN;
+  font-weight: 500;
   --body-background: light-dark(#444,#121111);
   --secondary-bkg-color: light-dark(#383838,#212021);
   --primary-color: light-dark(#fff,#dedddc);
@@ -154,6 +155,8 @@ h2 {
 }
 
 .collapsible {
+  font-family: HelN;
+  font-weight: 500;
   margin: auto;
   background-color: var(--button-action);
   color: var(--primary-color);
@@ -233,7 +236,6 @@ h2 {
 }
 
 .cnncl-usrnme {
-  font-family: HelN;
   font-size: 17px;
   font-weight: 200;
   color: var(--primary-color);
