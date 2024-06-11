@@ -260,15 +260,6 @@ h1 {
   margin-right: 10px;
 }
 
-.noto-sans-title {
-  font-family: 'Noto Sans', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
 .email {
   fill: var(--primary-color);
   transform: scale(1);
