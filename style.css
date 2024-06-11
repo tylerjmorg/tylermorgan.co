@@ -213,7 +213,7 @@
 
 :root {
   color-scheme: light dark;
-  font-family: Noto Sans, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: normal;
   --body-background: light-dark(#444,#121111);
   --secondary-bkg-color: light-dark(#383838,#212021);
@@ -261,7 +261,7 @@ h1 {
 }
 
 .noto-sans-title {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
@@ -360,7 +360,7 @@ h2 {
 }
 
 .collapsible {
-  font-family: Noto Sans, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-weight: 500;
   margin: auto;
   background-color: var(--button-action);
