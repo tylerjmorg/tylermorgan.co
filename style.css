@@ -163,16 +163,15 @@
 }
 
 @keyframes bigger {
-  0% {font-variation-settings: "wght" 100, "wdth" 70; }
-  50% {font-variation-settings: "wght" 900, "wdth" 70; }
-  100% {font-variation-settings: "wght" 100, "wdth" 70; }
+  0% {font-variation-settings: "wght" 100; }
+  50% {font-variation-settings: "wght" 900; }
+  100% {font-variation-settings: "wght" 100; }
 }
 
 h1 span {
   animation: bigger infinite;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
-  font-variation-settings: "wdth" 70;
 } 
 h1 span:nth-child(2) {
   animation-delay: 0.1s;
@@ -210,9 +209,8 @@ h1 span:nth-child(12) {
 
 h2 span {
   animation: bigger infinite;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease;
-  font-variation-settings: "wdth" 70;
 } 
 h2 span:nth-child(1) {
   animation-delay: 1s;
