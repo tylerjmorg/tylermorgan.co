@@ -162,9 +162,58 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+@keyframes bigger {
+  0% {font-variation-settings: "wght" 100, "wdth" 70; }
+  50% {font-variation-settings: "wght" 900, "wdth" 70; }
+  100% {font-variation-settings: "wght" 100, "wdth" 70; }
+  }
+  h1 span {
+  animation: bigger infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  font-variation-settings: "wdth" 70;
+  } h1 span:nth-child(2) {animation-delay: .1s}
+  h1 span:nth-child(3) {animation-delay: .2s}
+  h1 span:nth-child(4) {animation-delay: .3s}
+  h1 span:nth-child(5) {animation-delay: .4s}
+  h1 span:nth-child(6) {animation-delay: .5s}
+  h1 span:nth-child(7) {animation-delay: .6s}
+  h1 span:nth-child(8) {animation-delay: .7s}
+  h1 span:nth-child(9) {animation-delay: .8s}
+  h1 span:nth-child(10) {animation-delay: .9s}
+  h1 span:nth-child(11) {animation-delay: 1s}
+  h1 span:nth-child(12) {animation-delay: 1.1s}
+
+  h2 span {
+    animation: bigger infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    font-variation-settings: "wdth" 70;
+    } 
+    h2 span:nth-child(1) {animation-delay: 1s}
+    h2 span:nth-child(2) {animation-delay: 1.1s}
+    h2 span:nth-child(3) {animation-delay: 1.2s}
+    h2 span:nth-child(4) {animation-delay: 1.3s}
+    h2 span:nth-child(5) {animation-delay: 1.4s}
+    h2 span:nth-child(6) {animation-delay: 1.5s}
+    h2 span:nth-child(7) {animation-delay: 1.6s}
+    h2 span:nth-child(8) {animation-delay: 1.7s}
+    h2 span:nth-child(9) {animation-delay: 1.8s}
+    h2 span:nth-child(10) {animation-delay: 1.9s}
+    h2 span:nth-child(11) {animation-delay: 2s}
+    h2 span:nth-child(12) {animation-delay: 2.1s}
+    h2 span:nth-child(13) {animation-delay: 2.2s}
+    h2 span:nth-child(14) {animation-delay: 2.3s}
+    h2 span:nth-child(15) {animation-delay: 2.4s}
+    h2 span:nth-child(16) {animation-delay: 2.5s}
+    h2 span:nth-child(17) {animation-delay: 2.6s}
+    h2 span:nth-child(18) {animation-delay: 2.7s}
+    h2 span:nth-child(19) {animation-delay: 2.8s}
+    h2 span:nth-child(20) {animation-delay: 2.9s}
+
 :root {
   color-scheme: light dark;
-  font-family: Noto Sans;
+  font-family: Noto Sans, sans-serif;
   font-weight: normal;
   --body-background: light-dark(#444,#121111);
   --secondary-bkg-color: light-dark(#383838,#212021);
@@ -209,6 +258,15 @@ h1 {
   color: var(--primary-color);
   margin-left: 40px;
   margin-right: 10px;
+}
+
+.noto-sans-title {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 .email {
@@ -302,7 +360,7 @@ h2 {
 }
 
 .collapsible {
-  font-family: Noto Sans;
+  font-family: Noto Sans, sans-serif;
   font-weight: 500;
   margin: auto;
   background-color: var(--button-action);
