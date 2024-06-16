@@ -311,6 +311,12 @@ h1 span:nth-child(16) {
 h1 span:nth-child(17) {
   animation-delay: 560ms;
 }
+h1 span:nth-child(18) {
+  animation-delay: 595ms;
+}
+h1 span:nth-child(19) {
+  animation-delay: 630ms;
+}
 
 h2 span {
   animation: bigger infinite;
