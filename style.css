@@ -243,6 +243,7 @@
   --primary-hover: light-dark(#ccc,#b6b5b4);
   --biolink-color: light-dark(#fff,#e5e4e3);
   --highlight-color: light-dark(#454d51,#dad9d8);
+  --highlight-color-sec: light-dark(#555d61,#cac9c8);
   --button-action: light-dark(#757575,#444342);
   --button-action-active: light-dark(#616161,#383736);
   --button-link: light-dark(#d8d7d6,#343332);
