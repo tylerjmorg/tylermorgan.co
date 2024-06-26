@@ -239,6 +239,7 @@
   font-weight: normal;
   --body-background: light-dark(#444,#121111);
   --secondary-bkg-color: light-dark(#383838,#212021);
+  --bkg-color-3: light-dark(#363636,#313031);
   --primary-color: light-dark(#fff,#dedddc);
   --primary-hover: light-dark(#ccc,#b6b5b4);
   --biolink-color: light-dark(#fff,#e5e4e3);
