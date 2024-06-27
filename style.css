@@ -237,17 +237,18 @@
   color-scheme: light dark;
   font-family: 'Noto Sans', sans-serif;
   font-weight: normal;
-  --body-background: light-dark(#444,#121111);
-  --secondary-bkg-color: light-dark(#383838,#212021);
-  --bkg-color-3: light-dark(rgba(54,54,54,1),rgba(49,48,49,1));
-  --primary-color: light-dark(#fff,#dedddc);
-  --primary-hover: light-dark(#ccc,#b6b5b4);
-  --biolink-color: light-dark(#fff,#e5e4e3);
-  --highlight-color: light-dark(#454d51,#dad9d8);
-  --highlight-color-sec: light-dark(#757d81,#aaa9a8);
-  --button-action: light-dark(#757575,#444342);
-  --button-action-active: light-dark(#616161,#383736);
-  --button-link: light-dark(#d8d7d6,#343332);
+  --body-background: light-dark(#444444ff,#121111ff);
+  --secondary-bkg-color: light-dark(#383838ff,#212021ff);
+  --bkg-color-3: light-dark(#363636ff,#313031ff);
+  --bkg-color-3-trans: light-dark(#cccccc33,#61616166);
+  --primary-color: light-dark(#ffffffff,#dedddcff);
+  --primary-hover: light-dark(#ccccccff,#b6b5b4ff);
+  --biolink-color: light-dark(#ffffffff,#e5e4e3ff);
+  --highlight-color: light-dark(#454d51ff,#dad9d8ff);
+  --highlight-color-sec: light-dark(#757d81ff,#aaa9a8ff);
+  --button-action: light-dark(#757575ff,#444342ff);
+  --button-action-active: light-dark(#616161ff,#383736ff);
+  --button-link: light-dark(#d8d7d6ff,#343332ff);
 }
 
 h1 {
