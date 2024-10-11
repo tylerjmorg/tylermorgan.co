@@ -15,6 +15,7 @@
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121111">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="stylesheet" href="/style.css" integrity="sha384-XPux7+PuNxpTy479xro7TzLNUDG123UTKr54aHCIkds1aYl8SkNXk5J8lZuxbDmC">
+    <link rel="stylesheet" href="/nav.css">
     <meta name="description" content="The main website page for Tyler Morgan. View bio, social links, and payment options.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://tylermorgan.co/">
@@ -46,7 +47,20 @@
     <meta name="thumbnail" content="https://tylermorgan.co/elements/img/og-image.png">
     <link rel="home" href="https://tylermorgan.co/">
   </head>
-  <body>
+  <body class="no-pad">
+    <div class="nav"> 
+      <div class="inner-nav"> 
+        <div class="logo">
+          <a href="https://tylermorgan.co/" class="logo_wrap svgicon" rel="home">
+            <span class="u-visually-hidden">Tyler Morgan</span>
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="https://dos.tylermorgan.co/">DOS</a></li>
+          <li><a class="nav-link" href="/resume/">Resume</a></li>
+        </ul>
+      </div>
+    </div>
     <header aria-label="Headshot, Name, and Email">
       <div>
         <img class="profile" src="/elements/img/profile-300.avif" alt="Tyler Morgan's headshot, he is smiling.">
@@ -96,6 +110,11 @@
           <li>
             <a role="button" target="_blank" title="Instagram: @tylerjmorg" class="social-button" href="https://www.instagram.com/tylerjmorg/">
               <p>Instagram</p>
+            </a>
+          </li>
+          <li></li>
+            <a role="button" target="_blank" title="Twitch: @tylerjmorg" class="social-button" href="https://www.twitch.tv/tylerjmorg">
+              <p>Twitch</p>
             </a>
           </li>
           <li>
