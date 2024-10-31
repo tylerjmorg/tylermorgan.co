@@ -107,3 +107,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+[id] {
+  scroll-margin-top: 90px;
+}
