@@ -239,7 +239,7 @@
   font-weight: normal;
   --body-background: light-dark(lab(28.85 0 0 / 1),lab(5.15 0.38 0.13 / 1));
   --secondary-bkg-color: light-dark(lab(23.52 0 0 / 1),lab(12.39 0.72 -0.51 / 1));
-  --bkg-color-3: light-dark(lab(22.62 0 0 / 1),lab(20 0.68 -0.48 / 1));
+  --bkg-color-3: light-dark(lab(18 0 0 / 1),lab(20 0.68 -0.48 / 1));
   --bkg-color-3-trans: light-dark(lab(82.05 0 0 / 0.2),lab(41.14 0 0 / 0.4));
   --primary-color: light-dark(lab(100 0 0 / 1),lab(88.17 0.16 0.61 / 1));
   --primary-hover: light-dark(lab(82.05 0 0 / 1),lab(73.73 0.17 0.63 / 1));
