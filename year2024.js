@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return response.json();
     })
     .then(data => {
-      const currentYearElement = document.getElementById('currentyear');
+      const currentYearElement = document.getElementById('year2024');
       const year = data.year;
       if (year <= 2024) {
         currentYearElement.textContent = '2024';
