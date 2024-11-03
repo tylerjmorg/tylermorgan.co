@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://tylermorgan.co/404.html">
-    <link rel="home" href="https://tylermorgan.co/">
   </head>
   <body>
     <header aria-label="404 Error">
@@ -28,14 +27,15 @@
           <p>This page no longer exists you silly goose!</p>
       </div>
       <div>
-        <a role="button" class="social-button" style="max-width: 250px;" title="Homepage: tylermorgan.co" rel="home" href="https://tylermorgan.co/">
+        <a role="button" class="social-button" style="max-width: 250px;" title="Homepage: tylermorgan.co" href="https://tylermorgan.co/">
           <p>Return to Homepage</p>
         </a>
       </div>
     </main>
     <footer aria-label="Copyright">
-      <p class="footer2" style="margin-top: 60px;">© 2024 Tyler Morgan. All rights reserved.</p>
-      <p class="footer2"><a class="content-link" href="https://tylermorgan.co/privacy-policy/">Privacy Policy</a></p>
+      <p class="footer2" style="margin-top: 60px;">© <span id="year2024"></span> <a class="content-link" target="_blank" href="/">Tyler Morgan</a>. All rights reserved.</p>
+      <p class="footer2"><a class="content-link" rel="privacy-policy" href="/privacy-policy/">Privacy Policy</a></p>
     </footer>
+    <script src="/year2024.js"></script>
   </body>
 </html>
