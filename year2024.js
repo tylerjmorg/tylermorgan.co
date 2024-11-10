@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch(`${window.location.origin}/currentyear.json`)
+  const scriptOrigin = new URL(import.meta.url).origin;
+  fetch(`${scriptOrigin}/currentyear.json`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
