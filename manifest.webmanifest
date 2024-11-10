@@ -62,25 +62,25 @@
     {
       "src": "/elements/pwa/pwa-desktop-1.avif",
       "type": "image/avif",
-      "sizes": "2388x1672",
+      "sizes": "2624x1844",
       "form_factor": "wide"
     },
     {
       "src": "/elements/pwa/pwa-desktop-2.avif",
       "type": "image/avif",
-      "sizes": "2388x1672",
+      "sizes": "2624x1844",
       "form_factor": "wide"
     },
     {
       "src": "/elements/pwa/pwa-desktop-3.avif",
       "type": "image/avif",
-      "sizes": "2388x1672",
+      "sizes": "2624x1844",
       "form_factor": "wide"
     },
     {
       "src": "/elements/pwa/pwa-desktop-4.avif",
       "type": "image/avif",
-      "sizes": "2388x1672",
+      "sizes": "2624x1844",
       "form_factor": "wide"
     },
     {
