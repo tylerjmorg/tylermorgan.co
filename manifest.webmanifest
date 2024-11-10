@@ -86,25 +86,25 @@
     {
       "src": "/elements/pwa/pwa-mobile-1.avif",
       "type": "image/avif",
-      "sizes": "1284x2480",
+      "sizes": "1283x2476",
       "form_factor": "narrow"
     },
     {
       "src": "/elements/pwa/pwa-mobile-2.avif",
       "type": "image/avif",
-      "sizes": "1284x2480",
+      "sizes": "1283x2476",
       "form_factor": "narrow"
     },
     {
       "src": "/elements/pwa/pwa-mobile-3.avif",
       "type": "image/avif",
-      "sizes": "1284x2480",
+      "sizes": "1283x2476",
       "form_factor": "narrow"
     },
     {
       "src": "/elements/pwa/pwa-mobile-4.avif",
       "type": "image/avif",
-      "sizes": "1284x2480",
+      "sizes": "1283x2476",
       "form_factor": "narrow"
     }
   ]
