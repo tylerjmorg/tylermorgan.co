@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://tylermorgan.co/currentyear.json')
+  fetch(`${window.location.origin}/currentyear.json`)
     .then(response => {
       if (!response.ok) {
         throw new Error('Network response was not ok');
