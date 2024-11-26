@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   fetch(`${scriptOrigin}/currentyear.json`)
     .then(response => {
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        throw new Error('year JSON file could not be found. Copyright still applies regardless.');
       }
       return response.json();
     })
@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     })
     .catch(error => {
-      console.error('There was a problem with the fetch operation:', error);
+      console.error('There was a problem loading the year:', error);
     });
 });

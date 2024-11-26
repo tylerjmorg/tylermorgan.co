@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" version="1.2" baseProfile="tiny-ps">
- <title>Tyler Morgan</title>
- <desc>The logo for Tyler Morgan. The letters T and M showcasing the logo.</desc>
- <rect fill="#454d51" width="375" height="375" />
- <g fill="#e3e4e5">
-  <path d="M 38.4 258.3 L 147.6 258.3 L 147.6 285.5 L 38.4 285.5 Z M 38.4 258.3" />
-  <path d="M 196.4 82.4 L 337.1 82.4 L 337.1 109.2 L 196.4 109.2 Z M 196.4 82.4" />
-  <path d="M 37.8,81.6 V 108.9 H 78.4 V 209.7 H 107.5 V 108.9 h 40.6 V 81.6 Z" />
-  <path d="m 196.7,158.1 v 128.1 h 28.9 v -77.2 l 31.1,45.6 h 20.1 l 31.1,-45.4 v 77 h 28.9 V 158.1 h -24.5 l -45.4,66.4 -45.6,-66.4 z" />
- </g>
+  <title>Tyler Morgan Logo</title>
+  <desc>A dark grey background and the light grey letters TM inside in dark grey</desc>
+  <rect fill="#454d51" width="375" height="375"/>
+  <g fill="#e3e4e5">
+    <path d="m 92.72,234.8 v 17.3 h 69.44 v -17.3 z"/>
+    <path d="M 193.19,122.96 V 140 h 89.47 v -17.04 z"/>
+    <path d="m 92.34,122.45 v 17.36 H 118.16 v 64.1 h 18.5 v -64.1 h 25.82 v -17.36 z"/>
+    <path d="m 193.38,171.09 v 81.46 h 18.38 v -49.09 l 19.78,29 h 12.78 l 19.78,-28.87 v 48.96 h 18.38 v -81.46 h -15.58 l -28.87,42.22 -29,-42.22 z"/>
+  </g>
 </svg>
