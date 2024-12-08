@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const scriptOrigin = new URL(import.meta.url).origin;
-  fetch(`${scriptOrigin}/currentyear.json`)
+  fetch(`${scriptOrigin}/current_year.json`)
     .then(response => {
       if (!response.ok) {
         throw new Error('year JSON file could not be found. Copyright still applies regardless.');
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return response.json();
     })
     .then(data => {
-      const currentYearElement = document.getElementById('year2024');
+      const currentYearElement = document.getElementById('year_2024');
       const year = data.year;
       if (year <= 2024) {
         currentYearElement.textContent = '2024';

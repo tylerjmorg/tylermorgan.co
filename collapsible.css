@@ -1,0 +1,10 @@
+/* See https://codepen.io/ZoranJambor/pen/jOorzPv?layout=left for codepen
+ans see https://www.youtube.com/watch?v=idoaw75xjhU for tutorial */
+
+/* This will be the future collapsible function once WebKit and Mozilla figure their ish out */
+
+/* calc-size() does not work on WebKit or Mozilla and allow-discrete does not work on Mozilla */
+
+/* Can I Use?
+allow-discrete: https://caniuse.com/?search=allow-discrete
+calc-size: https://caniuse.com/mdn-css_types_calc-size */
