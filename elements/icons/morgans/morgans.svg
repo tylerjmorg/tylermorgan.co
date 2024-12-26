@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" role="img" aria-labelledby="morgans-logo-title morgans-logo-description">
+  <title id="morgans-logo-title">Morgans Logo</title>
+  <desc id="morgans-logo-description">A dark grey background with the white letter M in the foreground</desc>
+  <rect id="bg" fill="#454d51" width="375" height="375" />
+  <path id="fg" fill="#e7e8e9" d="m97,155v165h37v-100l40,59h26l40,-59v99h37V155h-32l-59,86-59,-86zM 97,57v35H278v-35z" />
+</svg>
