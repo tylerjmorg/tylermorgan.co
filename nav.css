@@ -41,7 +41,7 @@
   display: inline-block;
 	width: 100%;
 	height: 100%;
-  background-image: url(/elements/icons/favicon-night.svg);
+  background-image: url(/elements/icons/favicon-dark.svg);
 	transition: none;
 }
 .svgicon {

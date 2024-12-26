@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" role="img" aria-labelledby="tyler-morgan-logo-title tyler-morgan-logo-description">
   <title id="tyler-morgan-logo-title">Tyler Morgan Logo</title>
-  <desc id="tyler-morgan-logo-description">A dark grey background and the light grey letters TM inside in dark grey</desc>
-  <rect id="bg" fill="#454d51" width="375" height="375" />
+  <desc id="tyler-morgan-logo-description">A transparent background and the light grey letters TM</desc>
   <g id="fg" fill="#e3e4e5">
     <path id="left-bar" d="M 38.4 258.3 L 147.6 258.3 L 147.6 285.5 L 38.4 285.5 Z M 38.4 258.3" />
     <path id="right-bar" d="M 196.4 82.4 L 337.1 82.4 L 337.1 109.2 L 196.4 109.2 Z M 196.4 82.4" />

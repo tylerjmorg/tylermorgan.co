@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" version="1.2" baseProfile="tiny-ps">
   <title>Tyler Morgan Logo</title>
   <desc>A dark grey background and the light grey letters TM inside in dark grey</desc>
-  <rect fill="#454d51" width="375" height="375"/>
+  <rect fill="#454d51" width="375" height="375" />
   <g fill="#e3e4e5">
-    <path d="m 77.42,242.43 v 20.09 h 80.65 v -20.09 z"/>
-    <path d="m 194.11,112.54 v 19.79 h 103.91 v -19.79 z"/>
-    <path d="m 76.98,111.95 v 20.16 H 106.97 v 74.45 h 21.48 v -74.45 h 29.99 v -20.16 z"/>
-    <path d="m 194.33,168.44 v 94.61 h 21.35 v -57.01 l 22.97,33.68 h 14.84 l 22.97,-33.53 v 56.86 h 21.35 v -94.61 h -18.1 l -33.53,49.03 -33.68,-49.03 z"/>
+    <path d="m 77.42,242.43 v 20.09 h 80.65 v -20.09 z" />
+    <path d="m 194.11,112.54 v 19.79 h 103.91 v -19.79 z" />
+    <path d="m 76.98,111.95 v 20.16 H 106.97 v 74.45 h 21.48 v -74.45 h 29.99 v -20.16 z" />
+    <path d="m 194.33,168.44 v 94.61 h 21.35 v -57.01 l 22.97,33.68 h 14.84 l 22.97,-33.53 v 56.86 h 21.35 v -94.61 h -18.1 l -33.53,49.03 -33.68,-49.03 z" />
   </g>
 </svg>
