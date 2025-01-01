@@ -436,7 +436,7 @@ h2 {
   text-align: center;
   color: var(--primary-color);
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 1.56rem;
 }
 
 .socials-title {
@@ -452,7 +452,7 @@ h2 {
   text-decoration: none;
   color: var(--highlight-color);
   margin: auto;
-  font-size: 17px;
+  font-size: 1.06rem;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-bottom: 20px;
@@ -469,30 +469,25 @@ h2 {
 
 .sub-footer {
   text-align: center;
-  font-size: 14px;
+  font-size: 0.88rem;
   margin-top: 60px;
   color: var(--primary-color);
 }
 
-.footer-container {
-  display: grid;
-  grid:
-  'w3c footer1 blank'
-  'w3c footer2 blank';
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
 }
 
 .footer1 {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--primary-color);
-  grid-area: footer1;
   text-align: center;
 }
 
 .footer2 {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--primary-color);
-  grid-area: footer2;
   text-align: center;
 }
 
@@ -520,11 +515,10 @@ h2 {
   color: var(--primary-color);
   cursor: pointer;
   border: none;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 40px;
-  max-width: 125px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  max-width: 150px;
+  padding: 12px;
   width: 95%;
   justify-content: center;
   display: flex;
@@ -551,7 +545,7 @@ h2 {
   margin-bottom: 10px;
   max-width: 650px;
   width: 85%;
-  font-size: 16px;
+  font-size: 1rem;
   text-wrap: pretty;
   text-align: left;
   transition: max-height 0.7s cubic-bezier(0.08, 0.59, 0.29, 0.99) 0s;
@@ -576,7 +570,7 @@ h2 {
   background-color: var(--button-action-active);
   color: var(--primary-color);
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem;
   border-radius: 40px;
   margin-bottom: 10px;
   max-width: 125px;
@@ -594,7 +588,7 @@ h2 {
 }
 
 .cnncl-usrnme {
-  font-size: 17px;
+  font-size: 1.06rem;
   font-weight: 200;
   color: var(--primary-color);
   justify-content: center;
@@ -623,20 +617,20 @@ li {
   color: var(--primary-color);
   margin-top: 150px;
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .header-404 {
   color: var(--primary-color);
   margin-top: 180px;
   text-align: center;
-  font-size: 180px;
+  font-size: 11.25rem;
   font-weight: normal;
 }
 
 .main-404 {
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-top: 60px;
   text-align: center;
   margin-bottom: 20px;
