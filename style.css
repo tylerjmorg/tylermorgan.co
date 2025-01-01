@@ -390,6 +390,7 @@ h2 span:nth-child(20) {
 
 body {
   background-color: var(--body-background);
+  color: var(--primary-color);
 }
 
 .profile {
@@ -477,6 +478,7 @@ h2 {
 .footer {
   text-align: center;
   font-size: 0.75rem;
+  color: var(--primary-color);
 }
 
 .footer1 {
@@ -489,10 +491,6 @@ h2 {
   font-size: 0.75rem;
   color: var(--primary-color);
   text-align: center;
-}
-
-.w3c {
-  grid-area: w3c;
 }
 
 .w3c-img {
