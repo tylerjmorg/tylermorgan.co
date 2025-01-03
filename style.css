@@ -245,7 +245,7 @@
   --primary-hover: light-dark(lab(82.05 0 0 / 1),lab(73.73 0.17 0.63 / 1));
   --sec-color: light-dark(lab(90 0 0 / 1),lab(69.29 0.17 0.64 / 1));
   --biolink-color: light-dark(lab(100 0 0 / 1),lab(90.64 0.16 0.61 / 1));
-  --highlight-color: light-dark(lab(32.21 -2.48 -3.63 / 1),lab(86.75 0.16 0.61 / 1));
+  --highlight-color: light-dark(lab(29.21 -2.48 -3.63 / 1),lab(86.75 0.16 0.61 / 1));
   --highlight-color-sec: light-dark(lab(51.88 -2.12 -3.2 / 1),lab(69.29 0.17 0.64 / 1));
   --button-action: light-dark(lab(49.24 0 0 / 1),lab(28.48 0.2 0.75 / 1));
   --button-action-active: light-dark(lab(41.14 0 0 / 1),lab(23.13 0.21 0.78 / 1));
@@ -479,6 +479,14 @@ h2 {
   text-align: center;
   font-size: 0.75rem;
   color: var(--primary-color);
+}
+
+.copyright {
+  line-height: 0.31rem;
+}
+
+.privacy-policy {
+  line-height: 0.63rem;
 }
 
 .footer1 {
