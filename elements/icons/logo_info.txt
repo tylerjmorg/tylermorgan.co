@@ -1,0 +1,92 @@
+Tyler Morgan Logo Information v1.0
+     Updated: 2025-01-08 UTC
+----------------------------------
+
+Tyler Morgan Logo Copyright
+ Copyright (c) 2025 Tyler Morgan. All rights reserved.
+
+Basics
+                                      Source File: logo.svg
+                                       View Box X: 1000px
+                                       View Box Y: 1000px
+                                             Role: IMG
+                                 Aria Labelled By: tyler-morgan-logo-title tyler-morgan-logo-description
+                                           Colors: 2 (Atomic Grey, Platinum)
+    Foreground to Background Color Contrast Ratio: 7.03:1 (Primary variant)
+                   WCAG Color Contrast Compliance: AAA (All component types)
+                         Color Contrast Check URL: https://webaim.org/resources/contrastchecker/?fcolor=E7E8E9&bcolor=454D51
+
+Title
+                                               ID: tyler-morgan-logo-title
+                                            Title: Tyler Morgan Logo
+
+Description
+                                               ID: tyler-morgan-logo-description
+                                     Primary Logo: An atomic grey square background and the letters TM inside in platinum
+                                       Light Logo: A transparent square background and the letters TM inside in atomic grey
+                                        Dark Logo: A transparent square background and the letters TM inside in platinum
+
+Background
+                                               ID: bg
+                                Primary Color HEX: #454d51
+                               Primary Color Name: Atomic Grey
+                                  Light Color HEX: N/A (Transparent)
+                                 Light Color Name: N/A (Transparent)
+                                   Dark Color HEX: N/A (Transparent)
+                                  Dark Color Name: N/A (Transparent)
+                                            Paths: 0
+                                           Shapes: 1 (rect 1000x1000)
+
+Foreground
+                                               ID: fg
+                                        T Text ID: t
+                                      Left Bar ID: left-bar
+                                     Right Bar ID: right-bar
+                                        M Text ID: m
+                                Primary Color HEX: #e7e8e9
+                               Primary Color Name: Platinum
+                                  Light Color HEX: #454d51
+                                 Light Color Name: Atomic Grey
+                                   Dark Color HEX: #e7e8e9
+                                  Dark Color Name: Platinum
+                                            Paths: 4 (T, Left Bar, Right Bar, M)
+                                           Shapes: 0
+
+Font
+                                        Font Name: Reddit Sans
+                                      Font Weight: 800 (ExtraBold)
+                                           Italic: false
+                                     Font License: SIL Open Font License, Version 1.1
+                                 Font License URL: https://openfontlicense.org/open-font-license-official-text/
+                        Font License Archived URL: https://web.archive.org/web/20241229121145/https://openfontlicense.org/open-font-license-official-text/
+                                 Font Listing URL: https://fonts.google.com/specimen/Reddit+Sans
+                         Font Listing License URL: https://fonts.google.com/specimen/Reddit+Sans/license
+                             Font Static Filename: RedditSans-ExtraBold.ttf
+                             Font File SRI SHA384: OIgtZZ/qT9gsZc58GaBC5n7DYrsZJ7Czosn3VUWNW7CIULXBcEiMpQhu6IFTsP4r
+                                         Modified: true
+
+File Types
+                                       File Types: AVIF, ICO, PNG, SVG, WEBP
+                                   Color Variants: Primary, Light, Dark
+                                  Sizing Variants: Normal, Maskable/BIMI
+                                      Resolutions: 16x16, 32x32, 128x128, 180x180, 192x192, 512x512, 1000x1000
+                                Natively Maskable: false
+                              Modifiably Maskable: true
+                                    Natively BIMI: false
+                                  Modifiably BIMI: true
+
+Sizing Information
+           IMG Pixel to Border Radius Pixel Ratio: 5.5:1 (Round px as needed)
+              SVG Maskable Scale Pecentage (BIMI): 70% (Round px as needed. Only the foreground is scaled.)
+                                  ICO Resolutions: 16x16, 32x32
+                                     SVG Rounding: Nearest 100th. Exclude values with 3 or less decimal numbers or if rounding makes the value 0.
+                               ICO Squoosh Method: Triangle (Bilinear) PNG
+
+Software
+             SVG Creation & Maskable/BIMI Scaling: Inkscape 1.4 (e7c3feb1, 2024-10-09) or later <https://inkscape.org/>
+                                      SVG Editing: Visual Studio Code v1.96.2 (Universal) Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f or later <https://code.visualstudio.com/>
+       AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/>
+                 ICO Conversion & Corner Rounding: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
+
+
+Copyright (c) 2025 Tyler Morgan. All rights reserved.

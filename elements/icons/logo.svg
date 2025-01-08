@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 375" role="img" aria-labelledby="tyler-morgan-logo-title tyler-morgan-logo-description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="tyler-morgan-logo-title tyler-morgan-logo-description">
   <title id="tyler-morgan-logo-title">Tyler Morgan Logo</title>
-  <desc id="tyler-morgan-logo-description">A dark grey background and the light grey letters TM inside in dark grey</desc>
-  <rect id="bg" fill="#454d51" width="375" height="375" />
+  <desc id="tyler-morgan-logo-description">An atomic grey square background and the letters TM inside in platinum</desc>
+  <rect id="bg" fill="#454d51" width="1000" height="1000" />
   <g id="fg" fill="#e7e8e9">
-    <path id="left-bar" d="M 38.4 258.3 L 147.6 258.3 L 147.6 285.5 L 38.4 285.5 Z M 38.4 258.3" />
-    <path id="right-bar" d="M 196.4 82.4 L 337.1 82.4 L 337.1 109.2 L 196.4 109.2 Z M 196.4 82.4" />
-    <path id="t" d="M 37.8,81.6 V 108.9 H 78.4 V 209.7 H 107.5 V 108.9 h 40.6 V 81.6 Z" />
-    <path id="m" d="m 196.7,158.1 v 128.1 h 28.9 v -77.2 l 31.1,45.6 h 20.1 l 31.1,-45.4 v 77 h 28.9 V 158.1 h -24.5 l -45.4,66.4 -45.6,-66.4 z" />
+    <path id="t" d="m 381.11,217.24 -287.36,0.004 v 75.44 H 192.48 V 598.03 h 90.18 V 292.68 h 98.45 z" />
+    <path id="left-bar" d="m 93.75,707.33 v 75.43 H 381.1 v -75.43 z" />
+    <path id="right-bar" d="m 490.4,217.25 v 75.43 h 415.85 v -75.43 z" />
+    <path id="m" d="m 490.4,401.97 v 380.79 h 90.45 V 656.68 l -2.21,-100.24 h 2.21 L 689.49,704.47 h 17.65 L 815.8,556.45 h 2.21 l -1.93,100.24 v 126.06 h 90.17 V 401.97 H 839.24 L 699.43,585.38 h -2.21 L 557.41,401.97 Z" />
   </g>
 </svg>
