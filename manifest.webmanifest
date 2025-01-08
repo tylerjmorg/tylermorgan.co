@@ -60,51 +60,27 @@
   "theme_color": "#444444",
   "screenshots": [
     {
-      "src": "/elements/pwa/pwa-desktop-1.avif",
+      "src": "/elements/pwa/pwa_wide_1.avif",
       "type": "image/avif",
       "sizes": "2624x1844",
       "form_factor": "wide"
     },
     {
-      "src": "/elements/pwa/pwa-desktop-2.avif",
+      "src": "/elements/pwa/pwa_wide_2.avif",
       "type": "image/avif",
       "sizes": "2624x1844",
       "form_factor": "wide"
     },
     {
-      "src": "/elements/pwa/pwa-desktop-3.avif",
+      "src": "/elements/pwa/pwa_narrow_1.avif",
       "type": "image/avif",
-      "sizes": "2624x1844",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/elements/pwa/pwa-desktop-4.avif",
-      "type": "image/avif",
-      "sizes": "2624x1844",
-      "form_factor": "wide"
-    },
-    {
-      "src": "/elements/pwa/pwa-mobile-1.avif",
-      "type": "image/avif",
-      "sizes": "1283x2476",
+      "sizes": "1320x2526",
       "form_factor": "narrow"
     },
     {
-      "src": "/elements/pwa/pwa-mobile-2.avif",
+      "src": "/elements/pwa/pwa_narrow_2.avif",
       "type": "image/avif",
-      "sizes": "1283x2476",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "/elements/pwa/pwa-mobile-3.avif",
-      "type": "image/avif",
-      "sizes": "1283x2476",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "/elements/pwa/pwa-mobile-4.avif",
-      "type": "image/avif",
-      "sizes": "1283x2476",
+      "sizes": "1320x2526",
       "form_factor": "narrow"
     }
   ]
