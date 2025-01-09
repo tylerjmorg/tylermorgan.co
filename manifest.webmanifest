@@ -4,49 +4,49 @@
   "description": "The main website page for Tyler Morgan. View social links and payment options.",
   "icons": [
     {
-      "src": "/elements/icons/rounded_icon_x192.webp",
+      "src": "/elements/icons/icon_bgrounded_x192.webp",
       "type": "image/webp",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "/elements/icons/rounded_icon_x512.webp",
+      "src": "/elements/icons/icon_bgrounded_x512.webp",
       "type": "image/webp",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/elements/icons/maskable_icon_x192.webp",
+      "src": "/elements/icons/icon_fgmaskable_x192.webp",
       "type": "image/webp",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/elements/icons/maskable_icon_x512.webp",
+      "src": "/elements/icons/icon_fgmaskable_x512.webp",
       "type": "image/webp",
       "sizes": "512x512",
       "purpose": "maskable"
     },
     {
-      "src": "/elements/icons/rounded_icon_x192.png",
+      "src": "/elements/icons/icon_bgrounded_x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "/elements/icons/rounded_icon_x512.png",
+      "src": "/elements/icons/icon_bgrounded_x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "any"
     },
     {
-      "src": "/elements/icons/maskable_icon_x192.png",
+      "src": "/elements/icons/icon_fgmaskable_x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "/elements/icons/maskable_icon_x512.png",
+      "src": "/elements/icons/icon_fgmaskable_x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"

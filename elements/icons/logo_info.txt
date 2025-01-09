@@ -1,12 +1,12 @@
-Tyler Morgan Logo Information v1.0
-     Updated: 2025-01-08 UTC
+Tyler Morgan Logo Information v1.1
+     Updated: 2025-01-09 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
  Copyright (c) 2025 Tyler Morgan. All rights reserved.
 
 Basics
-                                      Source File: logo.svg
+                                      Source File: icon.svg (Primary Style)
                                        View Box X: 1000px
                                        View Box Y: 1000px
                                              Role: IMG
@@ -49,7 +49,8 @@ Foreground
                                  Light Color Name: Atomic Grey
                                    Dark Color HEX: #e7e8e9
                                   Dark Color Name: Platinum
-                                            Paths: 4 (T, Left Bar, Right Bar, M)
+                                    Primary Paths: 4 (T, Left Bar, Right Bar, M)
+                                    Morgans Paths: 2 (Bar (Right Bar), M)
                                            Shapes: 0
 
 Font
@@ -68,16 +69,15 @@ Font
 File Types
                                        File Types: AVIF, ICO, PNG, SVG, WEBP
                                    Color Variants: Primary, Light, Dark
-                                  Sizing Variants: Normal, Maskable/BIMI
+                                  Sizing Variants: Primary, Maskable/BIMI, Morgans
                                       Resolutions: 16x16, 32x32, 128x128, 180x180, 192x192, 512x512, 1000x1000
-                                Natively Maskable: false
-                              Modifiably Maskable: true
-                                    Natively BIMI: false
-                                  Modifiably BIMI: true
+                           Natively Maskable/BIMI: false
+                         Modifiably Maskable/BIMI: true
 
 Sizing Information
            IMG Pixel to Border Radius Pixel Ratio: 5.5:1 (Round px as needed)
-              SVG Maskable Scale Pecentage (BIMI): 70% (Round px as needed. Only the foreground is scaled.)
+             SVG Maskable Scale Percentage (BIMI): 70% (Round px as needed. Only the foreground is scaled.)
+                     SVG Morgans Scale Percentage: 126.165762% (Round px as needed. Only the foreground is scaled.)
                                   ICO Resolutions: 16x16, 32x32
                                      SVG Rounding: Nearest 100th. Exclude values with 3 or less decimal numbers or if rounding makes the value 0.
                                ICO Squoosh Method: Triangle (Bilinear) PNG
@@ -88,5 +88,16 @@ Software
        AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/>
                  ICO Conversion & Corner Rounding: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
 
+Naming Patterns
+                               Pattern Exclusions: apple-touch-icon.avif, favicon.ico
+                                        Case Type: Snake case
+                                     Naming Order: [icon style]_[fg style]_[bg style]_[color]_[resolution].[ext]
+                                     Color Naming: dark or light (If primary, no value)
+                           Bg (Background) Naming: bgrounded or bgtp (tp = transparent) (If primary, no value)
+                           Fg (Foreground) Naming: fgmaskable, fgmorgans (Groupable alphabetically) (If primary, no value)
+                                Icon Style Naming: bimi (If primary, value = icon)
+                    Resolution Naming (If Square): "x[pixel length]" e.g., "x180"
+      Resolution Naming (If Non-square Rectangle): "[pixel width]x[pixel height]" e.g., "1200x630"
+                     Reslution Naming (If Vector): No value
 
 Copyright (c) 2025 Tyler Morgan. All rights reserved.
