@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="tyler-morgan-logo-title tyler-morgan-logo-description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="tyler-morgan-logo-title tyler-morgan-logo-description">
   <title id="tyler-morgan-logo-title">Tyler Morgan Logo</title>
   <desc id="tyler-morgan-logo-description">An atomic grey square background and the letters TM inside in platinum</desc>
   <rect id="bg" fill="#454d51" width="1000" height="1000" />
-  <g id="fg" fill="#e7e8e9">
-    <path id="t" d="m 416.78,302.07 -201.15,0.004 v 52.81 h 69.11 v 213.74 h 63.12 v -213.75 h 68.91 z" />
-    <path id="left-bar" d="m 416.77,645.13 -201.14,0.004 v 52.8 h 201.14 z" />
-    <path id="right-bar" d="m 493.27,302.08 v 52.8 h 291.1 v -52.8 z" />
-    <path id="m" d="m 493.27,431.38 v 266.55 h 63.32 v -88.26 l -1.55,-70.17 h 1.55 l 76.05,103.62 h 12.36 l 76.05,-103.61 h 1.55 l -1.35,70.17 v 88.24 H 784.375 V 431.38 h -46.92 l -97.86,128.38 h -1.55 L 540.18,431.38 Z" />
+  <g id="fg" fill="#e7e8e9" transform="matrix(0.7,0,0,0.7,150,150)">
+    <path id="t" d="M381.11,217.25h-287.36v75.44h98.6v305.35h90.16v-305.35h98.6Z" />
+    <path id="left-bar" d="M93.75,707.32v75.44h287.36v-75.44Z" />
+    <path id="right-bar" d="M490.39,217.25v75.44h415.85v-75.44Z" />
+    <path id="m" d="M490.39,401.97v380.79h90.45v-126.07l-2.21,-100.24h2.21l108.65,148.02h17.65l108.65,-148.02h2.21l-2.21,100.24v126.07h90.45v-380.79h-67.01l-139.81,183.41h-2.21l-139.81,-183.41Z" />
   </g>
 </svg>

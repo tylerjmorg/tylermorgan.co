@@ -1,5 +1,5 @@
-Tyler Morgan Logo Information v1.1
-     Updated: 2025-01-09 UTC
+Tyler Morgan Logo Information v1.2
+     Updated: 2025-01-10 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
@@ -7,10 +7,12 @@ Tyler Morgan Logo Copyright
 
 Basics
                                       Source File: icon.svg (Primary Style)
-                                       View Box X: 1000px
-                                       View Box Y: 1000px
-                                             Role: IMG
-                                 Aria Labelled By: tyler-morgan-logo-title tyler-morgan-logo-description
+                                View Box X Length: 1000 (SVG only)
+                                View Box Y Length: 1000 (SVG only)
+                                            Width: 1000 (SVG only)
+                                           Height: 1000 (SVG only)
+                                             Role: IMG (SVG only)
+                                 Aria Labelled By: tyler-morgan-logo-title, tyler-morgan-logo-description
                                            Colors: 2 (Atomic Grey, Platinum)
     Foreground to Background Color Contrast Ratio: 7.03:1 (Primary variant)
                    WCAG Color Contrast Compliance: AAA (All component types)
@@ -23,6 +25,7 @@ Title
 Description
                                                ID: tyler-morgan-logo-description
                                      Primary Logo: An atomic grey square background and the letters TM inside in platinum
+                                     Rounded Logo: An atomic grey rounded square background and the letters TM inside in platinum
                                        Light Logo: A transparent square background and the letters TM inside in atomic grey
                                         Dark Logo: A transparent square background and the letters TM inside in platinum
 
@@ -36,6 +39,7 @@ Background
                                   Dark Color Name: N/A (Transparent)
                                             Paths: 0
                                            Shapes: 1 (rect 1000x1000)
+                        Light/Dark Variant Shapes: 0
 
 Foreground
                                                ID: fg
@@ -67,26 +71,29 @@ Font
                                          Modified: true
 
 File Types
-                                       File Types: AVIF, ICO, PNG, SVG, WEBP
+                                       File Types: AVIF, ICO, Browser PNG, SVG, WEBP
+                                    AVIF Settings: Lossless. 10 Effort
+                                    WEBP Settings: Lossless. 9 Effort. 0 Slight Loss.
                                    Color Variants: Primary, Light, Dark
                                   Sizing Variants: Primary, Maskable/BIMI, Morgans
                                       Resolutions: 16x16, 32x32, 128x128, 180x180, 192x192, 512x512, 1000x1000
                            Natively Maskable/BIMI: false
-                         Modifiably Maskable/BIMI: true
+                         Modifiably Maskable/BIMI: true (Add "transform="matrix(0.7,0,0,0.7,150,150)"" to fg)
 
 Sizing Information
-           IMG Pixel to Border Radius Pixel Ratio: 5.5:1 (Round px as needed)
-             SVG Maskable Scale Percentage (BIMI): 70% (Round px as needed. Only the foreground is scaled.)
-                     SVG Morgans Scale Percentage: 126.165762% (Round px as needed. Only the foreground is scaled.)
+        Icon Length to Border Radius Length Ratio: 5.7:1 (Round to three decimals as needed. Only the background is rounded.)
+             SVG Maskable Scale Percentage (BIMI): 70% (Only the foreground is scaled.)
+                     SVG Morgans Scale Percentage: 125% (Only the foreground is scaled.)
                                   ICO Resolutions: 16x16, 32x32
-                                     SVG Rounding: Nearest 100th. Exclude values with 3 or less decimal numbers or if rounding makes the value 0.
-                               ICO Squoosh Method: Triangle (Bilinear) PNG
+                                     SVG Rounding: Nearest 100th.
+                                   Squoosh Method: Vector
 
 Software
              SVG Creation & Maskable/BIMI Scaling: Inkscape 1.4 (e7c3feb1, 2024-10-09) or later <https://inkscape.org/>
-                                      SVG Editing: Visual Studio Code v1.96.2 (Universal) Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f or later <https://code.visualstudio.com/>
+                    SVG Editing & Corner Rounding: Visual Studio Code v1.96.2 (Universal) Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f or later <https://code.visualstudio.com/>
        AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/>
-                 ICO Conversion & Corner Rounding: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
+                                   ICO Conversion: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
+                                Contrast Checking: WebAIM 2025-01-09 Copyright (c) WebAIM <https://webaim.org/resources/contrastchecker/>
 
 Naming Patterns
                                Pattern Exclusions: apple-touch-icon.avif, favicon.ico

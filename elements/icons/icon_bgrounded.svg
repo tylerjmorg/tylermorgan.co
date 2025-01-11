@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" version="1.2" baseProfile="tiny-ps" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="tyler-morgan-logo-title tyler-morgan-logo-description">
   <title id="tyler-morgan-logo-title">Tyler Morgan Logo</title>
-  <desc id="tyler-morgan-logo-description">An atomic grey square background and the letters TM inside in platinum</desc>
-  <rect id="bg" fill="#454d51" width="1000" height="1000" />
-  <g id="fg" fill="#e7e8e9" transform="matrix(0.7,0,0,0.7,150,150)">
+  <desc id="tyler-morgan-logo-description">An atomic grey rounded square background and the letters TM inside in platinum</desc>
+  <rect id="bg" fill="#454d51" width="1000" height="1000" rx="175.439" />
+  <g id="fg" fill="#e7e8e9">
     <path id="t" d="M381.11,217.25h-287.36v75.44h98.6v305.35h90.16v-305.35h98.6Z" />
     <path id="left-bar" d="M93.75,707.32v75.44h287.36v-75.44Z" />
     <path id="right-bar" d="M490.39,217.25v75.44h415.85v-75.44Z" />
