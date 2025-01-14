@@ -66,8 +66,9 @@ Font
                         Font License Archived URL: https://web.archive.org/web/20241229121145/https://openfontlicense.org/open-font-license-official-text/
                                  Font Listing URL: https://fonts.google.com/specimen/Reddit+Sans
                          Font Listing License URL: https://fonts.google.com/specimen/Reddit+Sans/license
+                                        Font Repo: https://github.com/reddit/redditsans
                              Font Static Filename: RedditSans-ExtraBold.ttf
-                             Font File SRI SHA384: OIgtZZ/qT9gsZc58GaBC5n7DYrsZJ7Czosn3VUWNW7CIULXBcEiMpQhu6IFTsP4r
+              RedditSans-ExtraBold.ttf SRI SHA384: OIgtZZ/qT9gsZc58GaBC5n7DYrsZJ7Czosn3VUWNW7CIULXBcEiMpQhu6IFTsP4r
                                          Modified: true
 
 File Types

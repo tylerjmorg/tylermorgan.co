@@ -3,9 +3,9 @@
   <desc id="tyler-morgan-logo-description">An atomic grey square background and the letters TM inside in platinum</desc>
   <rect id="bg" fill="#454d51" width="1000" height="1000" />
   <g id="fg" fill="#e7e8e9" transform="matrix(0.7,0,0,0.7,150,150)">
-    <path id="t" d="M381.11,217.25h-287.36v75.44h98.6v305.35h90.16v-305.35h98.6Z" />
-    <path id="left-bar" d="M93.75,707.32v75.44h287.36v-75.44Z" />
-    <path id="right-bar" d="M490.39,217.25v75.44h415.85v-75.44Z" />
-    <path id="m" d="M490.39,401.97v380.79h90.45v-126.07l-2.21,-100.24h2.21l108.65,148.02h17.65l108.65,-148.02h2.21l-2.21,100.24v126.07h90.45v-380.79h-67.01l-139.81,183.41h-2.21l-139.81,-183.41Z" />
+    <path id="t" d="M93.755,217.245v75.44h98.6v305.35h90.16v-305.35h98.6v-75.44Z" />
+    <path id="left-bar" d="M93.755,707.315v75.44h287.36v-75.44Z" />
+    <path id="right-bar" d="M490.395,217.245v75.44h415.85v-75.44Z" />
+    <path id="m" d="M490.395,401.965v380.79h90.45v-126.07l-2.21,-100.24h2.21l108.65,148.02h17.65l108.65,-148.02h2.21l-2.21,100.24v126.07h90.45v-380.79h-67.01l-139.81,183.41h-2.21l-139.81,-183.41Z" />
   </g>
 </svg>
