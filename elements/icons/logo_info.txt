@@ -14,9 +14,9 @@ Basics
                                              Role: IMG (SVG only)
                                  Aria Labelled By: tyler-morgan-logo-title, tyler-morgan-logo-description
                                            Colors: 2 (Atomic Grey, Platinum)
-    Foreground to Background Color Contrast Ratio: 7.03:1 (Primary variant)
+    Foreground to Background Color Contrast Ratio: 7.37:1 (Primary variant)
                    WCAG Color Contrast Compliance: AAA (All component types)
-                         Color Contrast Check URL: https://webaim.org/resources/contrastchecker/?fcolor=E7E8E9&bcolor=454D51
+                         Color Contrast Check URL: https://webaim.org/resources/contrastchecker/?fcolor=E7E8E9&bcolor=424A4E
 
 Title
                                                ID: tyler-morgan-logo-title
@@ -94,7 +94,7 @@ Software
                     SVG Editing & Corner Rounding: Visual Studio Code v1.96.2 (Universal) Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f or later <https://code.visualstudio.com/>
        AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/>
                                    ICO Conversion: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
-                                Contrast Checking: WebAIM 2025-01-09 Copyright (c) WebAIM <https://webaim.org/resources/contrastchecker/>
+                                Contrast Checking: WebAIM 2025-01-15 Copyright (c) WebAIM <https://webaim.org/resources/contrastchecker/>
 
 Naming Patterns
                                Pattern Exclusions: apple-touch-icon.avif, favicon.ico

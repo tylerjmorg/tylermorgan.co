@@ -252,6 +252,11 @@
   --button-link: light-dark(lab(91.95 -0.16 -0.6 / 1),lab(21.31 0.21 0.79 / 1));
 }
 
+::selection {
+  background-color: light-dark(lab(100 0 0 / 1),lab(88.17 0.16 0.61 / 1));
+  color: light-dark(lab(28.85 0 0 / 1),lab(5.15 0.38 0.13 / 1));
+}
+
 h1 {
   font-family: 'Roboto Flex', sans-serif;
   font-weight: 700;
