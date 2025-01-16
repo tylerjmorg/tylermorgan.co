@@ -1,5 +1,5 @@
-Tyler Morgan Logo Information v1.2
-     Updated: 2025-01-10 UTC
+Tyler Morgan Logo Information v1.3
+     Updated: 2025-01-16 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
@@ -31,7 +31,7 @@ Description
 
 Background
                                                ID: bg
-                                Primary Color HEX: #454d51
+                                Primary Color HEX: #424a4e
                                Primary Color Name: Atomic Grey
                                   Light Color HEX: N/A (Transparent)
                                  Light Color Name: N/A (Transparent)
@@ -49,7 +49,7 @@ Foreground
                                         M Text ID: m
                                 Primary Color HEX: #e7e8e9
                                Primary Color Name: Platinum
-                                  Light Color HEX: #454d51
+                                  Light Color HEX: #424a4e
                                  Light Color Name: Atomic Grey
                                    Dark Color HEX: #e7e8e9
                                   Dark Color Name: Platinum
