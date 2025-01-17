@@ -21,3 +21,11 @@ p.external-bw, a.external-bw {
   background-size: 0.8em;
   padding-right: 1em;
 }
+
+p.external-sec, a.external-sec {
+  background-image: url(/elements/icons/utility/external_link_sec.svg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 0.8em;
+  padding-right: 1em;
+}
