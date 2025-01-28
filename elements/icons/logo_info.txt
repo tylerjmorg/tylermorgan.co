@@ -1,9 +1,9 @@
-Tyler Morgan Logo Information v1.3
-     Updated: 2025-01-16 UTC
+Tyler Morgan Logo Information v1.3.1
+     Updated: 2025-01-27 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
- Copyright (c) 2025 Tyler Morgan. All rights reserved.
+ Copyright (c) 2024-2025 Tyler Morgan. All Rights Reserved.
 
 Basics
                                       Source File: icon.svg (Primary Style)
@@ -106,6 +106,6 @@ Naming Patterns
                                 Icon Style Naming: bimi (If primary, value = icon)
                     Resolution Naming (If Square): "x[pixel length]" e.g., "x180"
       Resolution Naming (If Non-square Rectangle): "[pixel width]x[pixel height]" e.g., "1200x630"
-                     Reslution Naming (If Vector): No value
+                    Resolution Naming (If Vector): No value
 
-Copyright (c) 2025 Tyler Morgan. All rights reserved.
+Copyright (c) 2024-2025 Tyler Morgan. All Rights Reserved.
