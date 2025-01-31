@@ -114,6 +114,12 @@ nav::selection,nav *::selection {
   box-sizing: border-box;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 [id] {
   scroll-margin-top: 5.63rem;
 }
