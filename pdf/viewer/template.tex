@@ -1,0 +1,44 @@
+% Linearize PDF after completion.
+\documentclass[letterpaper,9pt]{extarticle}
+\usepackage[left=0.5in,right=0.5in,top=1in,bottom=1in]{geometry}
+\usepackage{accessibility}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{svg}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+\usepackage{lastpage}
+\usepackage[twoside]{fancyhdr}
+\usepackage{mathptmx}
+\usepackage{setspace}
+\usepackage{enumitem}
+\pagenumbering{gobble}
+\setlist{leftmargin=3mm}
+\pdfcompresslevel=0
+\pdfmajorversion=1
+\pdfminorversion=5
+\hypersetup{
+    pdftitle={PDF Viewer | Tyler Morgan},
+    pdfsubject={},
+    pdfauthor={},
+    pdfproducer={},
+    pdfcreator={},
+    pdfkeywords={},
+    pdfpagemode=FullScreen,
+    pdfcreationdate={20250000000000Z},
+    pdfmoddate={20250000000000Z},
+}
+\urlstyle{same}
+\title{\href{https://tylermorgan.co/}{\includesvg[width=0.15\textwidth]{icon_bgtp_light} \alt{Tyler Morgan Logo}}}
+\author{}
+\date{}
+\begin{document}
+  \maketitle
+  \vspace{-40pt}
+  \noindent
+  \center \textbf{\huge{\fontfamily{qag}\selectfont DRAG \& DROP \\
+  OR \\
+  OPEN \\~\\
+  ANY PDF FILE}}
+  \vfill 
+\end{document}

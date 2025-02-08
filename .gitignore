@@ -1,1 +1,11 @@
 .DS_Store
+*.aux
+*.log
+*.nav
+*.fls
+*.snm
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+*.out
+*.bcf-SAVE-ERROR
