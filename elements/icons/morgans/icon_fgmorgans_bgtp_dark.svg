@@ -1,8 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="morgans-logo-title morgans-logo-description">
   <title id="morgans-logo-title">Morgans Logo</title>
   <desc id="morgans-logo-description">A transparent square background and the letter M inside in platinum</desc>
-  <g id="fg" fill="#e7e8e9" transform="matrix(1.25,0,0,1.25,-372.9,-125)">
-    <path id="bar" d="M490.395,217.245v75.44h415.85v-75.44Z" />
-    <path id="m" d="M490.395,401.965v380.79h90.45v-126.07l-2.21,-100.24h2.21l108.65,148.02h17.65l108.65,-148.02h2.21l-2.21,100.24v126.07h90.45v-380.79h-67.01l-139.81,183.41h-2.21l-139.81,-183.41Z" />
+  
+  <g transform="matrix(1.25,0,0,1.25,-367.5,-125)" id="foreground" fill="#e7e8e9">
+    
+    
+    <path id="bar" d="M486,222v76h416v-76Z" />
+    <path id="letter-m" d="M486,398v380h92v-128l-4,-98h4l104,130h24l104,-130h4l-4,98v128h92v-380h-62l-144,180h-4l-144,-180Z" />
   </g>
 </svg>
+<!--Copyright Tyler Morgan. All rights reserved.-->
+<!--See https://tylermorgan.co/intellectual-property/ for more info.-->

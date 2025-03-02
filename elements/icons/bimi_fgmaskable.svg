@@ -1,11 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" version="1.2" baseProfile="tiny-ps" role="img">
+<svg baseProfile="tiny-ps" version="1.2" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img">
   <title id="tyler-morgan-logo-title">Tyler Morgan Logo</title>
   <desc id="tyler-morgan-logo-description">An atomic grey square background and the letters TM inside in platinum</desc>
-  <rect id="bg" fill="#424a4e" width="1000" height="1000" />
-  <g id="fg" fill="#e7e8e9" transform="matrix(0.7,0,0,0.7,150,150)">
-    <path id="t" d="M93.755,217.245v75.44h98.6v305.35h90.16v-305.35h98.6v-75.44Z" />
-    <path id="left-bar" d="M93.755,707.315v75.44h287.36v-75.44Z" />
-    <path id="right-bar" d="M490.395,217.245v75.44h415.85v-75.44Z" />
-    <path id="m" d="M490.395,401.965v380.79h90.45v-126.07l-2.21,-100.24h2.21l108.65,148.02h17.65l108.65,-148.02h2.21l-2.21,100.24v126.07h90.45v-380.79h-67.01l-139.81,183.41h-2.21l-139.81,-183.41Z" />
+  <rect id="background" fill="#424a4e" width="1000" height="1000" />
+  <g transform="matrix(0.7,0,0,0.7,150,150)" id="foreground" fill="#e7e8e9">
+    <path id="letter-t" d="M98,222v76h98v304h92v-304h98v-76Z" />
+    <path id="left-bar" d="M98,702v76h288v-76Z" />
+    <path id="right-bar" d="M486,222v76h416v-76Z" />
+    <path id="letter-m" d="M486,398v380h92v-128l-4,-98h4l104,130h24l104,-130h4l-4,98v128h92v-380h-62l-144,180h-4l-144,-180Z" />
   </g>
 </svg>
+<!--Copyright Tyler Morgan. All rights reserved.-->
+<!--See https://tylermorgan.co/intellectual-property/ for more info.-->
