@@ -167,7 +167,7 @@ for (const logoFileName of logoFileNames) {
     }
   }
 
-  if (logoFileName === "icon_fgmorgans" || logoFileName === "icon_fgmorgans_bgtp_dark" || logoFileName === "icon_fgmorgans_bgtp_light") {
+  if (logoFileName === "icon_fgmorgans" || logoFileName === "icon_fgmorgans_bgtp_dark" || logoFileName === "icon_fgmorgans_bgtp_light" || logoFileName === "icon") {
     for (let format of avifPng) {
       const result = image.toFormat(format, {
         lossless: true,
@@ -180,7 +180,7 @@ for (const logoFileName of logoFileNames) {
   }
 
   // Use sharp to render the `.ico` from the small SVG
-  const smallImage = await sharp('icon.svg');
+  const smallImage = await sharp('icon_bgrounded.svg');
   await smallImage
     .resize(32, 32)
     .toFile('favicon.ico');
