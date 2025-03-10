@@ -2,7 +2,7 @@
 // @ts-check
 
 import sharp from "npm:sharp@0.33.5";
-import { DOMParser } from "npm:linkedom@0.18.5";
+import { DOMParser } from "npm:linkedom@0.18.9";
 
 /** the text contained in the source SVG file */
 const text = await Deno.readTextFile("icon.svg");

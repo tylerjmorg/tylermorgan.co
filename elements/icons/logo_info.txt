@@ -1,9 +1,13 @@
-Tyler Morgan Logo Information v1.3.1
-     Updated: 2025-01-27 UTC
+Tyler Morgan Logo Information v0.1.4.0
+     Updated: 2025-03-10 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
  Copyright (c) 2024-2025 Tyler Morgan. All Rights Reserved.
+
+Version
+                                     Logo Version: 0.1.4.0
+                              Versioning Sequence: [Epoch].[Major].[Minor].[Patch]
 
 Basics
                                       Source File: icon.svg (Primary Style)
@@ -20,17 +24,22 @@ Basics
 
 Title
                                                ID: tyler-morgan-logo-title
+                               Morgans Variant ID: morgans-logo-title
                                             Title: Tyler Morgan Logo
 
 Description
                                                ID: tyler-morgan-logo-description
+                               Morgans Variant ID: morgans-logo-description
                                      Primary Logo: An atomic grey square background and the letters TM inside in platinum
                                      Rounded Logo: An atomic grey rounded square background and the letters TM inside in platinum
                                        Light Logo: A transparent square background and the letters TM inside in atomic grey
                                         Dark Logo: A transparent square background and the letters TM inside in platinum
+                             Primary Morgans Logo: An atomic grey square background and the letter M inside in platinum
+                               Light Morgans Logo: A transparent square background and the letter M inside in atomic grey
+                                Dark Morgans Logo: A transparent square background and the letter M inside in platinum
 
 Background
-                                               ID: bg
+                                               ID: background
                                 Primary Color HEX: #424a4e
                                Primary Color Name: Atomic Grey
                                   Light Color HEX: N/A (Transparent)
@@ -42,11 +51,11 @@ Background
                         Light/Dark Variant Shapes: 0
 
 Foreground
-                                               ID: fg
-                                        T Text ID: t
+                                               ID: foreground
+                                        T Text ID: letter-t
                                       Left Bar ID: left-bar
                                      Right Bar ID: right-bar
-                                        M Text ID: m
+                                        M Text ID: letter-m
                                 Primary Color HEX: #e7e8e9
                                Primary Color Name: Platinum
                                   Light Color HEX: #424a4e
@@ -70,23 +79,25 @@ Font
                              Font Static Filename: RedditSans-ExtraBold.ttf
               RedditSans-ExtraBold.ttf SRI SHA384: OIgtZZ/qT9gsZc58GaBC5n7DYrsZJ7Czosn3VUWNW7CIULXBcEiMpQhu6IFTsP4r
                                          Modified: true
+                                          Version: Commit 60e19b50bde6de34b695591a8a047a6a3618a37c <https://github.com/reddit/redditsans>
 
 File Types
+                                  Asset Generator: assets.mjs
                                        File Types: AVIF, ICO, Browser PNG, SVG, WEBP
                                     AVIF Settings: Lossless. 10 Effort
                                     WEBP Settings: Lossless. 9 Effort. 0 Slight Loss.
                                    Color Variants: Primary, Light, Dark
-                                  Sizing Variants: Primary, Maskable/BIMI, Morgans
+                                  Foreground Variants: Primary, Maskable/BIMI, Morgans
                                       Resolutions: 16x16, 32x32, 128x128, 180x180, 192x192, 512x512, 1000x1000
                            Natively Maskable/BIMI: false
-                         Modifiably Maskable/BIMI: true (Add "transform="matrix(0.7,0,0,0.7,150,150)"" to fg)
+                         Modifiably Maskable/BIMI: true (Add `transform="matrix(0.7,0,0,0.7,150,150)"` to fg)
 
 Sizing Information
         Icon Length to Border Radius Length Ratio: 5.7:1 (Round to three decimals as needed. Only the background is rounded.)
              SVG Maskable Scale Percentage (BIMI): 70% (Only the foreground is scaled.)
                      SVG Morgans Scale Percentage: 125% (Only the foreground is scaled.)
                                   ICO Resolutions: 16x16, 32x32
-                                     SVG Rounding: Nearest 100th.
+                                     SVG Rounding: Even whole number.
                                    Squoosh Method: Vector
 
 Software
@@ -95,6 +106,10 @@ Software
        AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/>
                                    ICO Conversion: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
                                 Contrast Checking: WebAIM 2025-01-15 Copyright (c) WebAIM <https://webaim.org/resources/contrastchecker/>
+                Assets Generator Image Conversion: ImageMagick 7.1.1-45 Q16-HDRI aarch64 22722 or later <https://imagemagick.org>; Sharp 0.33.5 or later via npm <https://sharp.pixelplumbing.com/>
+                Assets Generator XML Manipulation: linkedom 0.18.9 or later via npm <https://github.com/WebReflection/linkedom> 
+                          Assets Generator Runner: deno 2.2.3 or later <https://deno.com/>
+                 Assets Generator Package Manager: npm 10.9.2 or later <https://www.npmjs.com/>
 
 Naming Patterns
                                Pattern Exclusions: apple-touch-icon.avif, favicon.ico
@@ -109,3 +124,31 @@ Naming Patterns
                     Resolution Naming (If Vector): No value
 
 Copyright (c) 2024-2025 Tyler Morgan. All Rights Reserved.
+
+----- END OF INFORMATION - BELOW DOES NOT NEED NEW VERSION WHEN MODIFIED ----
+
+Distributed Locations
+ - tylermorgan.co/elements/icons/*
+   - Hosting all standard variations
+ - dos.tylermorgan.co, thebass.me, tylerjm.org, tylermorgan.co, tylersmusic.com
+   - favicon.ico, apple-touch-icon.avif, bimi_fgmaskable.svg are hosted
+ - GoDaddy
+   - Hosted on thebass.me, tylerjm.org, tylermorgan.co, and tylersmusic.com dashboards.
+ - 1Password
+   - Morgans logo is on family account. Tyler Morgan logo is on Tyler-Docs vault.
+ - Proton Mail
+   - Morgans logo used as organization logo.
+ - Proton Drive
+   - My Files/Media/Tyler's Finds/logo/* hosting non-standard 2D and 3D printing files.
+ - YouTube @tylerjmorg
+   - icon_bgtp_dark.svg used as video watermark.
+ - tylerjm.org/music/digital/file-origin/template/*
+   - icon_bgtp_light.svg hosted for LaTeX file.
+ - tylermorgan.co/elements/img/*
+   - Used in og_image.svg, og_image.png, tylerjmorg_live.svg, and tylerjmorg_live.png
+ - tylermorgan.co/elements/pwa/*
+   - Used in pwa_narrow_1.avif, pwa_narrow_2.avif, pwa_wide_1.avif, and pwa_wide_2.avif
+ - tylermorgan.co/intellectual-property/
+   - Both Tyler Morgan and Morgans logo used.
+ - tylermorgan.co/pdf/viewer/*
+   - icon_bgtp_light.svg hosted for LaTeX file template.pdf.
