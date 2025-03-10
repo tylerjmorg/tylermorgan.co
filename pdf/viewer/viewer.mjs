@@ -833,7 +833,7 @@ const defaultOptions = {
 };
 {
   defaultOptions.defaultUrl = {
-    value: "template.pdf",
+    value: "",
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
