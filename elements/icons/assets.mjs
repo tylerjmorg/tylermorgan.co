@@ -176,6 +176,7 @@ for (const logoFileName of logoFileNames) {
 
       result.resize(128, 128).toFile(`${logoFileName}_x128.${format}`);
       result.resize(512, 512).toFile(`${logoFileName}_x512.${format}`);
+      result.resize(1000, 1000).toFile(`${logoFileName}_x1000.${format}`);
     }
   }
 
@@ -190,17 +191,20 @@ for (const logoFileName of logoFileNames) {
 // Run as `deno run --allow-read --allow-write --allow-net --allow-env --allow-ffi assets.mjs`
 
 // Dependencies (macOS):
-// brew install deno
-// brew install node
-// brew install npm
-// npm install -g sharp
-// npm install -g linkedom
+// <https://brew.sh/#install> | brew update                | brew -v
+// brew install deno          | brew upgrade deno --greedy | deno --version
+// brew install node          | brew upgrade node --greedy | node --version
+// brew install node          | npm update -g npm          | npm --version
+// npm install -g sharp       | npm update -g sharp        | npm view sharp version
+// npm install -g linkedom    | npm update -g linkedom     | npm view linkedom version
 
-// Last run: 2025-03-18T04:22:00.000Z
-// Deno: v2.2.4
-// Sharp: v0.33.5
-// linkedom: v0.18.9
-// node: v23.10.0
-// npm: v10.9.2
+// Last run on 2025-03-18T11:27:00.000Z with software:
+//   brew: v4.4.24 <https://github.com/Homebrew/brew/releases>
+//   deno: v2.2.4 <https://github.com/denoland/deno/releases>
+//   node: v23.10.0 <https://github.com/nodejs/node/releases>
+//   npm: v11.2.0 `npm update -g npm` <https://github.com/npm/cli/releases>
+//   sharp: v0.33.5 (v0.34.0 coming soon) <https://github.com/lovell/sharp/releases>
+//   linkedom: v0.18.9 <https://github.com/WebReflection/linkedom/tags>
+//   macOS: v15.3.2
 
 // Latest logo version: v0.1.4.0
