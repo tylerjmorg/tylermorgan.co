@@ -191,6 +191,16 @@ for (const logoFileName of logoFileNames) {
 
 // Dependencies (macOS):
 // brew install deno
+// brew install node
 // brew install npm
 // npm install -g sharp
 // npm install -g linkedom
+
+// Last run: 2025-03-18T04:22:00.000Z
+// Deno: v2.2.4
+// Sharp: v0.33.5
+// linkedom: v0.18.9
+// node: v23.10.0
+// npm: v10.9.2
+
+// Latest logo version: v0.1.4.0
