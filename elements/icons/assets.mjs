@@ -199,9 +199,9 @@ for (const logoFileName of logoFileNames) {
 // npm install -g linkedom    | npm update -g linkedom     | npm view linkedom version
 
 // Last run on 2025-03-18T11:27:00.000Z with software:
-//   brew: v4.4.24 <https://github.com/Homebrew/brew/releases>
-//   deno: v2.2.4 <https://github.com/denoland/deno/releases>
-//   node: v23.10.0 <https://github.com/nodejs/node/releases>
+//   brew: v4.4.24 <https://github.com/Homebrew/brew/releases> (v4.4.26 available)
+//   deno: v2.2.4 <https://github.com/denoland/deno/releases> (v2.2.5 available (not in brew))
+//   node: v23.10.0 <https://github.com/nodejs/node/releases> 
 //   npm: v11.2.0 `npm update -g npm` <https://github.com/npm/cli/releases>
 //   sharp: v0.33.5 (v0.34.0 coming soon) <https://github.com/lovell/sharp/releases>
 //   linkedom: v0.18.9 <https://github.com/WebReflection/linkedom/tags>

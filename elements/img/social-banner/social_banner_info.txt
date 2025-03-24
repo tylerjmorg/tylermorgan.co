@@ -1,0 +1,60 @@
+Distributed Locations:
+
+  - discogs.com (Discogs)
+    - Recommended size: 1600x400
+    - Tested up to 20.1MB upload, unknown max
+    - social_banner_discogs_x3.png used
+
+  - youtube.com (YouTube)
+    - At least 2048 x 1152 pixels and 6MB or less
+    - social_banner_youtube_x3.png used
+
+  - x.com/twitter.com (X (Twitter))
+    - Recommended size: 1500x500
+    - Must be under 2MB
+    - social_banner_mastodon_xtwitter_x3.png used
+
+  - bsky.app (Bluesky)
+    - Recommended size: 3000x1000
+    - Tested up to 20.1MB upload, unknown max
+    - social_banner_bsky_x3.png used
+
+  - motivosity.com (Motivosity)
+    - Used highest quality possible.
+
+  - xiaohongshu.com (rednote)
+    - Used highest quality possible.
+
+  - linkedin.com (LinkedIn)
+    - Recommended sixe: 1584x396
+    - Must be under 8MB
+    - social_banner_linkedin_x3.png used
+
+  - figma.com (Figma)
+    - Must be less than 4096x1024
+    - Must be less than 5MB
+    - social_banner_figma.png used
+
+  - mastodon.social (Mastodon)
+    - WEBP, PNG, GIF or JPG. At most 8 MB. Will be downscaled to 1500x500px
+    - social_banner_mastodon_xtwitter_x3.png used
+
+  - twitch.tv (Twitch)
+    - File format: JPEG, PNG, GIF (recommended 1200x480, max 10MB)
+    - social_banner_twitch_x3.png used
+
+  - reddit.com (Reddit)
+    - Recommended dimensions 1280x384
+    - Must be less than 500kb
+    - social_banner_reddit_x2.png used
+
+  - paypal.com (PayPal)
+    - Recommended size: unknown
+    - Unknown upload max
+    - social_banner_x7.png used (Uploaded through mobile app as recommended)
+
+  - venmo.com (Venmo Business)
+    - Recommended size: unknown
+    - Unknown upload max
+    - social_banner_x7.png used
+
