@@ -11,12 +11,13 @@ const text = await Deno.readTextFile("icon.svg");
 const logoFileNames = 
 [
   "icon",
-  "bimi_fgmaskable", 
-  "icon_bgrounded", 
-  "icon_bgtp_dark", 
-  "icon_bgtp_light", 
-  "icon_fgmaskable", 
-  "icon_fgmorgans", 
+  "bimi_fgmaskable",
+  "icon_bgrounded",
+  "icon_bgtp_dark",
+  "icon_bgtp_light",
+  "icon_fgmaskable",
+  "icon_fgmorgans",
+  "icon_fgmorgans_fgmaskable",
   "icon_fgmorgans_bgtp_dark",
   "icon_fgmorgans_bgtp_light"
 ];
@@ -82,6 +83,20 @@ for (const logoFileName of logoFileNames) {
         "An atomic grey square background and the letter M inside in platinum";
       descElement.setAttribute("id", "morgans-logo-description");
       fg.setAttribute("transform", "matrix(1.25,0,0,1.25,-367.5,-125)");
+      letterT.remove();
+      leftBar.remove();
+      rightBar.setAttribute("id", "bar");
+      break;
+    }
+    case "icon_fgmorgans_fgmaskable": {
+      svgElement.setAttribute("aria-labelledby", "morgans-logo-title morgans-logo-description");
+      titleElement.innerHTML = 
+        'Morgans Logo';
+      titleElement.setAttribute("id", "morgans-logo-title");
+      descElement.innerHTML = 
+        "An atomic grey square background and the letter M inside in platinum";
+      descElement.setAttribute("id", "morgans-logo-description");
+      fg.setAttribute("transform", "matrix(.9 0 0 .9 -124.6 50)");
       letterT.remove();
       leftBar.remove();
       rightBar.setAttribute("id", "bar");
@@ -167,7 +182,7 @@ for (const logoFileName of logoFileNames) {
     }
   }
 
-  if (logoFileName === "icon_fgmorgans" || logoFileName === "icon_fgmorgans_bgtp_dark" || logoFileName === "icon_fgmorgans_bgtp_light" || logoFileName === "icon") {
+  if (logoFileName === "icon_fgmorgans" || logoFileName === "icon_fgmorgans_fgmaskable" || logoFileName === "icon_fgmorgans_bgtp_dark" || logoFileName === "icon_fgmorgans_bgtp_light" || logoFileName === "icon") {
     for (let format of avifPng) {
       const result = image.toFormat(format, {
         lossless: true,
@@ -198,11 +213,11 @@ for (const logoFileName of logoFileNames) {
 // npm install -g sharp       | npm update -g sharp        | npm view sharp version
 // npm install -g linkedom    | npm update -g linkedom     | npm view linkedom version
 
-// Last run on 2025-03-18T11:27:00.000Z with software:
-//   brew: v4.4.24 <https://github.com/Homebrew/brew/releases> (v4.4.26 available)
-//   deno: v2.2.4 <https://github.com/denoland/deno/releases> (v2.2.5 available (not in brew))
+// Last run on 2025-03-30T20:00:00.000Z with software:
+//   brew: v4.4.26 <https://github.com/Homebrew/brew/releases>
+//   deno: v2.2.6 <https://github.com/denoland/deno/releases>
 //   node: v23.10.0 <https://github.com/nodejs/node/releases> 
-//   npm: v11.2.0 `npm update -g npm` <https://github.com/npm/cli/releases>
+//   npm: v11.2.0 <https://github.com/npm/cli/releases>
 //   sharp: v0.33.5 (v0.34.0 coming soon) <https://github.com/lovell/sharp/releases>
 //   linkedom: v0.18.9 <https://github.com/WebReflection/linkedom/tags>
 //   macOS: v15.3.2

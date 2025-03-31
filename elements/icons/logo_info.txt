@@ -1,5 +1,5 @@
-Tyler Morgan Logo Information v0.1.4.0
-     Updated: 2025-03-10 UTC
+Tyler Morgan Logo Information v0.1.4.0_1
+     Updated: 2025-03-31 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
@@ -87,16 +87,17 @@ File Types
                                     AVIF Settings: Lossless. 10 Effort
                                     WEBP Settings: Lossless. 9 Effort. 0 Slight Loss.
                                    Color Variants: Primary, Light, Dark
-                                  Foreground Variants: Primary, Maskable/BIMI, Morgans
+                                  Foreground Variants: Primary, Maskable/BIMI, Morgans, Morgans Maskable
                                       Resolutions: 16x16, 32x32, 128x128, 180x180, 192x192, 512x512, 1000x1000
                            Natively Maskable/BIMI: false
-                         Modifiably Maskable/BIMI: true (Add `transform="matrix(0.7,0,0,0.7,150,150)"` to fg)
+                         Modifiably Maskable/BIMI: true (Add `transform="matrix(#,#,#,#,#,#)"` to foreground)
 
 Sizing Information
         Icon Length to Border Radius Length Ratio: 5.7:1 (Round to three decimals as needed. Only the background is rounded.)
              SVG Maskable Scale Percentage (BIMI): 70% (Only the foreground is scaled.)
                      SVG Morgans Scale Percentage: 125% (Only the foreground is scaled.)
-                                  ICO Resolutions: 16x16, 32x32
+             SVG Morgan Maskable Scale Percentage: 90% (Only the foreground is scaled.)
+                                   ICO Resolution: 32x32
                                      SVG Rounding: Even whole number.
                                    Squoosh Method: Vector
 
@@ -117,7 +118,7 @@ Naming Patterns
                                      Naming Order: [icon style]_[fg style]_[bg style]_[color]_[resolution].[ext]
                                      Color Naming: dark or light (If primary, no value)
                            Bg (Background) Naming: bgrounded or bgtp (tp = transparent) (If primary, no value)
-                           Fg (Foreground) Naming: fgmaskable, fgmorgans (Groupable alphabetically) (If primary, no value)
+                           Fg (Foreground) Naming: fgmaskable (2nd priority), fgmorgans (1st priority), (Groupable by priority) (If primary, no value)
                                 Icon Style Naming: bimi (If primary, value = icon)
                     Resolution Naming (If Square): "x[pixel length]" e.g., "x180"
       Resolution Naming (If Non-square Rectangle): "[pixel width]x[pixel height]" e.g., "1200x630"
@@ -152,3 +153,5 @@ Distributed Locations
    - Both Tyler Morgan and Morgans logo used.
  - tylermorgan.co/pdf/viewer/*
    - icon_bgtp_light.svg hosted for LaTeX file template.pdf.
+ - Signal
+   - Morgans logo in Morgan Fam group chat photo.
