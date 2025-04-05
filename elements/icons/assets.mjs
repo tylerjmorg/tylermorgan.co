@@ -1,7 +1,7 @@
 #!/usr/bin/env -S deno run -A
 // @ts-check
 
-import sharp from "npm:sharp@0.33.5";
+import sharp from "npm:sharp@0.34.0";
 import { DOMParser } from "npm:linkedom@0.18.9";
 
 /** the text contained in the source SVG file */
@@ -213,13 +213,13 @@ for (const logoFileName of logoFileNames) {
 // npm install -g sharp       | npm update -g sharp        | npm view sharp version
 // npm install -g linkedom    | npm update -g linkedom     | npm view linkedom version
 
-// Last run on 2025-03-30T20:00:00.000Z with software:
-//   brew: v4.4.26 <https://github.com/Homebrew/brew/releases>
-//   deno: v2.2.6 <https://github.com/denoland/deno/releases>
-//   node: v23.10.0 <https://github.com/nodejs/node/releases> 
+// Last run on 2025-04-05T15:32:00.000Z with software:
+//   brew: v4.4.27 <https://github.com/Homebrew/brew/releases>
+//   deno: v2.2.8 <https://github.com/denoland/deno/releases>
+//   node: v23.11.0 <https://github.com/nodejs/node/releases>
 //   npm: v11.2.0 <https://github.com/npm/cli/releases>
-//   sharp: v0.33.5 (v0.34.0 coming soon) <https://github.com/lovell/sharp/releases>
+//   sharp: v0.34.0 <https://github.com/lovell/sharp/releases>
 //   linkedom: v0.18.9 <https://github.com/WebReflection/linkedom/tags>
-//   macOS: v15.3.2
+//   macOS: v15.4
 
-// Latest logo version: v0.1.4.0
+// Latest logo version: v0.1.4.1

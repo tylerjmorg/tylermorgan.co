@@ -1,12 +1,12 @@
-Tyler Morgan Logo Information v0.1.4.0_1
-     Updated: 2025-03-31 UTC
+Tyler Morgan Logo Information v0.1.4.1
+     Updated: 2025-04-05 UTC
 ----------------------------------
 
 Tyler Morgan Logo Copyright
  Copyright (c) 2024-2025 Tyler Morgan. All Rights Reserved.
 
 Version
-                                     Logo Version: 0.1.4.0
+                                     Logo Version: 0.1.4.1
                               Versioning Sequence: [Epoch].[Major].[Minor].[Patch]
 
 Basics
@@ -102,15 +102,15 @@ Sizing Information
                                    Squoosh Method: Vector
 
 Software
-             SVG Creation & Maskable/BIMI Scaling: Inkscape 1.4 (e7c3feb1, 2024-10-09) or later <https://inkscape.org/>
-                    SVG Editing & Corner Rounding: Visual Studio Code v1.96.2 (Universal) Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f or later <https://code.visualstudio.com/>
-       AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/>
-                                   ICO Conversion: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/>
+             SVG Creation & Maskable/BIMI Scaling: Inkscape 1.4 (e7c3feb1, 2024-10-09) or later <https://inkscape.org/> (Deprecated)
+                    SVG Editing & Corner Rounding: Visual Studio Code v1.96.2 (Universal) Commit: fabdb6a30b49f79a7aba0f2ad9df9b399473380f or later <https://code.visualstudio.com/> (Deprecated)
+       AVIF, PNG, WEBP, and Resolution Conversion: Squoosh Commit: e8d35e0fb66eb16eff6fe8fc773eabcbb7128de3 or later <https://squoosh.app/> (Deprecated)
+                                   ICO Conversion: GIMP 2.10.38 (revision 1) or later <https://www.gimp.org/> (Deprecated)
                                 Contrast Checking: WebAIM 2025-01-15 Copyright (c) WebAIM <https://webaim.org/resources/contrastchecker/>
-                Assets Generator Image Conversion: ImageMagick 7.1.1-45 Q16-HDRI aarch64 22722 or later <https://imagemagick.org>; Sharp 0.33.5 or later via npm <https://sharp.pixelplumbing.com/>
+                Assets Generator Image Conversion: ImageMagick 7.1.1-45 Q16-HDRI aarch64 22722 or later <https://imagemagick.org> (Deprecated); Sharp 0.34.0 or later via npm <https://sharp.pixelplumbing.com/>
                 Assets Generator XML Manipulation: linkedom 0.18.9 or later via npm <https://github.com/WebReflection/linkedom> 
-                          Assets Generator Runner: deno 2.2.3 or later <https://deno.com/>
-                 Assets Generator Package Manager: npm 10.9.2 or later <https://www.npmjs.com/>
+                          Assets Generator Runner: deno 2.2.8 or later <https://deno.com/>
+                 Assets Generator Package Manager: npm 11.2.0 or later <https://www.npmjs.com/>; brew 4.4.27 or later <https://brew.sh>
 
 Naming Patterns
                                Pattern Exclusions: apple-touch-icon.avif, favicon.ico
