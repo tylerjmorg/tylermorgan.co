@@ -9,3 +9,6 @@
 *.fdb_latexmk
 *.out
 *.bcf-SAVE-ERROR
+package.json
+package-lock.json
+node_modules/

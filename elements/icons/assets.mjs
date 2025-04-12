@@ -1,8 +1,8 @@
 #!/usr/bin/env -S deno run -A
 // @ts-check
 
-import sharp from "npm:sharp@0.34.0";
-import { DOMParser } from "npm:linkedom@0.18.9";
+import sharp from "sharp";
+import { DOMParser } from "linkedom";
 
 /** the text contained in the source SVG file */
 const text = await Deno.readTextFile("icon.svg");
@@ -144,7 +144,10 @@ for (const logoFileName of logoFileNames) {
   // Load the SVG file into sharp
   const image = await sharp(`${logoFileName}.svg`);
 
+  /** @type {('avif' | 'png' | 'webp')[]} */
   const avifPngWebp = ["avif", "png", "webp"];
+
+  /** @type {('avif' | 'png')[]} */
   const avifPng = ["avif", "png"];
 
   // Generate the different formats for the logo
@@ -203,22 +206,24 @@ for (const logoFileName of logoFileNames) {
 }
 
 // cd to folder
-// Run as `deno run --allow-read --allow-write --allow-net --allow-env --allow-ffi assets.mjs`
+// Run as `deno run --allow-env --allow-ffi --allow-read --allow-write assets.mjs`
+
+// Startup: npm init -> installs (deno, sharp, linkedom)
 
 // Dependencies (macOS):
-// <https://brew.sh/#install> | brew update                | brew -v
-// brew install deno          | brew upgrade deno --greedy | deno --version
-// brew install node          | brew upgrade node --greedy | node --version
-// brew install node          | npm update -g npm          | npm --version
-// npm install -g sharp       | npm update -g sharp        | npm view sharp version
-// npm install -g linkedom    | npm update -g linkedom     | npm view linkedom version
+// <https://brew.sh/#install>   | brew update                 | brew -v
+// [cd] npm install -g deno     | [cd] npm update -g deno     | npm view deno version
+// brew install node            | brew upgrade node --greedy  | node --version
+// brew install node            | npm update -g npm           | npm --version
+// [cd] npm install -g sharp    | [cd] npm update -g sharp    | npm view sharp version
+// [cd] npm install -g linkedom | [cd] npm update -g linkedom | npm view linkedom version
 
-// Last run on 2025-04-05T15:32:00.000Z with software:
-//   brew: v4.4.27 <https://github.com/Homebrew/brew/releases>
-//   deno: v2.2.8 <https://github.com/denoland/deno/releases>
-//   node: v23.11.0 <https://github.com/nodejs/node/releases>
-//   npm: v11.2.0 <https://github.com/npm/cli/releases>
-//   sharp: v0.34.0 <https://github.com/lovell/sharp/releases>
+// Last run on 2025-04-12T09:56:00.000Z with software:
+//   brew: v4.4.29 <https://github.com/Homebrew/brew/releases>
+//   deno: v2.2.9 <https://github.com/denoland/deno/releases>
+//   node: v23.11.0 <https://github.com/nodejs/node/releases> 
+//   npm: v11.3.0 <https://github.com/npm/cli/releases>
+//   sharp: v0.34.1 <https://github.com/lovell/sharp/releases>
 //   linkedom: v0.18.9 <https://github.com/WebReflection/linkedom/tags>
 //   macOS: v15.4
 
