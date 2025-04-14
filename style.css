@@ -449,6 +449,54 @@ h2 {
   margin-top: 30px;
 }
 
+#svg-t {
+  stroke-dasharray: 4066.03076171875;
+  stroke-dashoffset: 4066.03076171875;
+  transition: stroke-dashoffset 1000ms ease-in;
+  animation: draw-t 1000ms ease-in forwards;
+}
+@keyframes draw-t {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#svg-yler {
+  stroke-dasharray: 2828.648193359375;
+  stroke-dashoffset: 2828.648193359375;
+  transition: stroke-dashoffset 1000ms ease-out;
+  animation: draw-yler 1000ms ease-out forwards;
+  animation-delay: 900ms;
+}
+@keyframes draw-yler {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#svg-m {
+  stroke-dasharray: 5019.681640625;
+  stroke-dashoffset: 5019.681640625;
+  transition: stroke-dashoffset 1000ms ease-in;
+  animation: draw-m 1000ms ease-in forwards;
+  animation-delay: 2200ms;
+}
+@keyframes draw-m {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#svg-organ {
+  stroke-dasharray: 3070.837646484375;
+  stroke-dashoffset: 3070.837646484375;
+  transition: stroke-dashoffset 1000ms ease-out;
+  animation: draw-organ 1000ms ease-out forwards;
+  animation-delay: 3100ms;
+}
+@keyframes draw-organ {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 .social-button {
   cursor: pointer;
   max-width: 750px;
@@ -603,6 +651,7 @@ h2 {
   font-weight: 200;
   color: var(--primary-color);
   justify-content: center;
+  margin-top: -20px;
   margin-bottom: 15px;
   display: flex;
 }
